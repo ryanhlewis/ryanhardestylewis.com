@@ -1,0 +1,170 @@
+---
+layout: 'default'
+---
+
+<div class="row">
+    <div class="span2">
+        <img class="steve-img" src="img/amypavel.jpg" alt="" />
+    </div>
+    <div class="span10 pull-down">
+        <div class="row">
+            <div class="span12">
+                <h1>Amy Pavel</h1>
+            </div>
+            <div class="span12">
+                <p>amypavel at eecs.berkeley.edu | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a></p>
+            </div>            
+        </div>
+        <div class="row">
+            <div class="span8">
+                <%- @partial('about') %>
+            </div>
+<!--             <div class="span5">
+                <h2><a href="<%- @site.root %>/posts.html">Latest blog posts</a></h2>
+                <% for post in @getCollection("posts").toJSON()[0..2]: %>
+                <p>
+                    <strong><%- @formatDate(post.date) %></strong> &ndash;
+                    <a href="<%- @site.root + post.url %>"><%- post.title %></a>
+                </p>
+                <% end %>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<!--<div class="row">
+    <div class="offset2 span10">
+        <ul class="navlist">
+            <li><a href="#research">research</a></li>
+            <li><a href="#background">background</a></li>
+            <li><a href="#hobbies">hobbies</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#classes">classes</a></li>
+        </ul>
+    </div>
+</div>
+
+<hr> -->
+
+<!-- <div class="navigation-wrapper hidden-phone">
+    <div class="navigation">
+        <div id="main-navbar" class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <ul class="nav">
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#background">Background</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div id="maincontent">
+
+<div class="row" id="research">
+    <div class="span2">
+        <h2>Research</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('research') %>
+    </div>
+</div>
+
+<div class="row top-buffer">
+    <div class="offset2 span10">
+        <h3>Publications</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="offset2 span8">
+        <% pubs = @getCollection("pubs").toJSON() %>
+        <% oldPub = false %>
+        <% for pub, i in pubs: %>
+        <% if pub.oldPub? and pub.oldPub and not oldPub: %>
+        <h3>Old publications (unrelated to current interests)</h3>
+        <% oldPub = true %>
+        <% end %>
+        <div class="paper">
+            <% if pub.link?: %>
+            <a href="<%- pub.link %>"><%- pub.title %></a><br />
+            <% else: %>
+            <%- pub.title %><br />
+            <% end %>
+            <%- pub.authors %><br />
+            <%- pub.venueFull %> (<%- pub.venueShort %>).
+            <%- pub.contentRendered %>
+            <% if i < pubs.length - 1: %>
+            <hr>
+            <% end %>
+        </div>
+        <% end %>
+    </div>
+</div>
+
+<!-- <div class="row top-buffer" id="software">
+    <div class="span2">
+        <h2>Software</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('software') %>
+    </div>
+</div> -->
+
+<!-- <div class="row top-buffer" id="background">
+    <div class="span2">
+        <h2>Background</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('background') %>
+    </div>
+</div> -->
+
+<div class="row top-buffer" id="hobbies">
+    <div class="span2">
+        <h2>Hobbies</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('hobbies') %>
+    </div>
+</div>
+
+<div class="row top-buffer" id="work">
+    <div class="span2">
+        <h2>Work</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('work') %>
+    </div>
+</div>
+
+<div class="row top-buffer" id="classes">
+    <div class="span2">
+        <h2>Classes</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('classes') %>
+    </div>
+</div>
+
+<!-- <div class="row top-buffer" id="work">
+    <div class="span2">
+        <h2>Service</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('service') %>
+    </div>
+</div> -->
+
+
+
+</div> <!-- #maincontent -->
+

@@ -1,0 +1,177 @@
+body 
+{
+	background-color: #8B668B;
+	background-color: #333;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 13pt;
+}
+
+h1, h2, h3, h4, h5, dt
+{
+}
+
+#container
+{
+	/*background-color: #ffffcc;*/
+	margin: 0 auto;
+	width: 1000px;
+	min-height: 100%;
+	/*border-bottom: 1px solid black;*/
+}
+
+#content-container
+{
+	float: left;
+	width: 1000px;
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 770px;
+	padding: 0 0 0 10px;
+	margin: 0;
+	display: inline;
+}
+
+#side
+{
+	float: right;
+	width: 200px;
+	padding: 10px;
+	margin: 0;
+	display: inline;
+}
+
+#containerfoot
+{
+	clear: both;
+}
+
+/*#foot
+{
+	clear: both;
+	height: 20px;
+	margin-top:-21px;
+	border-top: 1px solid black;
+	// see patternify.com. awesome.
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdElEQVQYGW2PAQ6AMAgDh/FF+if3jMVn7FG+Cb0lXRqVhFBKC1vJzEJu5Wik946nyElhr2t5xZX9hIqI7qPARexRG1VCsMcUisSAWEZ4+gXgJL0CgUzjjWoQgCX0+jmtoV/BPDa+f/h8sGLQdkxDqIG2/dUbf0dnOae8/6wAAAAASUVORK5CYII=);
+}*/
+
+#addr p
+{
+	margin: 0;
+}
+
+#pic
+{
+	float: right;
+}
+
+img {
+ 	-moz-box-shadow: 4px 4px 3px #888;
+	-webkit-box-shadow: 4px 4px 3px #888;
+	box-shadow: 4px 4px 3px #888;
+}
+
+.block
+{	
+	line-height: 1.5em;
+	margin: 10px 0;
+	padding: 5px;
+ 	background-color: #fffff0;
+ 	-moz-box-shadow: 4px 4px 3px #888;
+	-webkit-box-shadow: 4px 4px 3px #888;
+	box-shadow: 4px 4px 3px #888;
+}
+
+.innerblock
+{
+	margin: 10px;
+	padding: 5px;
+	background-color: #ffffff;  
+	border: 2px solid #ffffcc;
+}
+
+h1 
+{  
+	text-align: center;
+	margin: 20px 0 20px 0;
+   	padding: 0px;
+}
+
+h2 
+{
+ 	font-size: 16pt;
+}
+
+h3
+{
+	font-size: 14pt;
+}
+
+h4
+{
+	font-size: 12pt;
+	font-style: italic;
+	margin: 5px;
+}
+
+pre
+{
+	margin: 5px;
+}
+
+#nri a {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+	* cursor: hand;
+}
+
+p
+{
+
+}
+
+dl
+{
+	margin: 0;
+	padding: 0;
+}
+
+dt
+{
+	clear: left;
+	float: left;
+	width: 220px;
+	margin: 0;
+	padding: 5px;
+}
+
+dd
+{
+	margin-left: 230px;
+	padding: 5px;
+}
+
+.box
+{
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin: 0;
+	padding: 0;
+}
+.yellow { background-color: gold; }
+.black { background-color: #000000; }
+.purple { background-color: #330066; }
+.red { background-color: red; }
+.blue {background-color: blue; }
+.orange {background-color: orange; }
+.white {background-color: #ffffff; }
+

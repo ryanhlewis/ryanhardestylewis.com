@@ -1,0 +1,3 @@
+My dissertation research focuses on applying algorithmic techniques and human-computer interaction principles in developing new text-based interfaces for navigating videos. My projects include interfaces for exploring educational lecture videos, films, and video critiques. More recently, I've worked to understand how people view and interact with 360° videos. 
+
+As an undergraduate, I worked on a system for searching and browsing photoshop tutorials, and tools for helping crowdworkers provide useful design critiques. 

@@ -1,0 +1,12 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Site: Steve Rubin @ Berkeley EECS
+  Twitter: @revestubin
+  Location: Berkeley, CA
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery

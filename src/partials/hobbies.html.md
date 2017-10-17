@@ -1,0 +1,1 @@
+When I'm not working, I enjoy bouldering, hiking, snowboarding, trying new coffee shops and listening to podcasts. I also like to travel.
