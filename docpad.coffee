@@ -12,14 +12,16 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "https://www.amy-pavel.com"
+			url: "https://www.amypavel.com"
 
-			root: ""
+			root: "https://www.amypavel.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
 				'http://www.cs.berkeley.edu/~amypavel/',
-				'http://eecs.berkeley.edu/~amypavel/'
+				'http://eecs.berkeley.edu/~amypavel/',
+				'http://people.eecs.berkeley.edu/~amypavel/'
+				'http://www.amy-pavel.com',
 			]
 
 			# The default title of our website
@@ -101,6 +103,30 @@ docpadConfig = {
                 pub.setMeta(
                     write: false
                 )
+
+		ongoing: (database) ->
+			query =
+				relativeOutDirPath: $startsWith: 'ongoing'
+
+			sorting =
+				date: -1
+
+			database.findAllLive(query, sorting).on "add", (pub) ->
+                pub.setMeta(
+                    write: false
+                )
+
+		classprojects: (database) ->
+			query =
+				relativeOutDirPath: $startsWith: 'classprojects'
+
+			sorting =
+				date: -1
+
+			database.findAllLive(query, sorting).on "add", (pub) ->
+		        pub.setMeta(
+		            write: false
+		        )
 
 
 

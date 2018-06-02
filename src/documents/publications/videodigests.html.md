@@ -1,6 +1,7 @@
 ---
 title: "Video Digests: A Browsable, Skimmable Format for Informational Lecture Videos"
 venueShort: "UIST 2014"
+thumbnail: "img/thumbnails/videodigests.png"
 venueFull: "ACM 27th Symposium on User Interface Software and Technology"
 authors: "Amy Pavel, Colorado Reed, Björn Hartmann, Maneesh Agrawala"
 link: "http://vis.berkeley.edu/papers/videodigests/"

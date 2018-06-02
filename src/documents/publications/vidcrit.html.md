@@ -1,6 +1,7 @@
 ---
 title: "VidCrit: Video-Based Asynchronous Video Review"
 venueShort: "UIST 2016"
+thumbnail: "img/thumbnails/vidcrit.png"
 venueFull: "ACM 29th Symposium on User Interface Software and Technology"
 authors: "Amy Pavel, Dan B Goldman, Björn Hartmann, Maneesh Agrawala"
 link: "http://vis.berkeley.edu/papers/vidcrit/"

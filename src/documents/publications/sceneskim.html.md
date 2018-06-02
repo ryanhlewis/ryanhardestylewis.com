@@ -3,6 +3,7 @@ title: "SceneSkim: Searching and Browsing Movies Using Synchronized Captions, Sc
 authors: "Amy Pavel, Dan B Goldman, Björn Hartmann, Maneesh Agrawala"
 date: "2015-11-07"
 link: "http://vis.berkeley.edu/papers/sceneskim/"
+thumbnail: "img/thumbnails/sceneskim.png"
 venueFull: "ACM 28th Symposium on User Interface Software and Technology"
 venueShort: "UIST 2015"
 ---

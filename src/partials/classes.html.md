@@ -1,6 +1,4 @@
-I've taken several classes as part of the requirements for the Ph.D.
-program at Berkeley.
-
+* INFO C265 &mdash; Interface Aesthetics (Ryokai)
 * CS 260B &mdash; Human Computer Interaction Research (Paulos)
 * INFO 271B &mdash; Quantitative Researh Methods (Cheshire)
 * CS 294-115 &mdash; Human Robot Interaction (Dragan)
