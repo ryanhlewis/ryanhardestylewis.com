@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Steve Rubin's blog @ Berkeley EECS</title>
+	<title>Amy Pavel's blog @ Berkeley EECS</title>
 	<link href="<%= @site.url %>/atom.xml" rel="self"/>
 	<link href="<%= @site.url %>"/>
 	<updated><%= @site.date.toISOString() %></updated>
