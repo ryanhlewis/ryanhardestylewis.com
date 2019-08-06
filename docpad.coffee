@@ -78,7 +78,7 @@ docpadConfig = {
 		deploy:
 			templateData:
 				site:
-					root: "//eecs.berkeley.edu/~amypavel"
+					root: "//amypavel.com"
 
 		development:
 			templateData:

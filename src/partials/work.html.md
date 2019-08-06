@@ -1,7 +1,7 @@
 <h3> Graduate student researcher &mdash; UC Berkeley </h3>
 Advisors: Björn Hartmann, Maneesh Agrawala
 Committee: Eric Paulos, Björn Hartmann, Maneesh Agrawala, Abigail de Kosnik  
-*August 2013 - present*
+*August 2013 - December 2018*
 
 <!-- <h3> Graduate student instructor &mdash; UC Berkeley </h3>
 *Summer 2017*

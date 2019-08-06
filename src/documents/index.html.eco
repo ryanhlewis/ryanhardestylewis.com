@@ -119,6 +119,8 @@ layout: 'default'
     </div>
 </div>
 
+<% ongoingPubs = @getCollection("ongoing").toJSON() %>
+<% if ongoingPubs.length > 0: %>
 <div class="row top-buffer">
     <div class="offset2 span10">
         <h3>Ongoing projects</h3>
@@ -127,9 +129,8 @@ layout: 'default'
 
 <div class="row">
     <div class="offset2 span8">
-        <% pubs = @getCollection("ongoing").toJSON() %>
         <% oldPub = false %>
-        <% for pub, i in pubs: %>
+        <% for pub, i in ongoingPubs: %>
         <% if pub.oldPub? and pub.oldPub and not oldPub: %>
         <h3>Old publications (unrelated to current interests)</h3>
         <% oldPub = true %>
@@ -152,13 +153,15 @@ layout: 'default'
                 </div>
             </div>
         </div>
-        <% if i < pubs.length - 1: %>
+        <% if i < ongoingPubs.length - 1: %>
         <hr>
         <% end %>
 
         <% end %>
     </div>
 </div>
+
+<% end %>
 
 <div class="row top-buffer">
     

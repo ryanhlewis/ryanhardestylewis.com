@@ -1,4 +1,4 @@
-<h3> Instructor (upcoming!) &mdash; UC Berkeley </h3>
+<h3> Instructor &mdash; UC Berkeley </h3>
 CS 160: User interface design and development    
 *June 2018 - August 2018*
 
