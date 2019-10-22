@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "docpad generate --env=static,deploy",
-    "publish": "s3cmd sync out/ s3://amypavel.com/"
+    "deploy": "s3cmd sync out/ s3://amypavel.com/"
   },
   "dependencies": {
     "docpad": "~6.78.1",
