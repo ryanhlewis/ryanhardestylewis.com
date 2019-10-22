@@ -27,5 +27,5 @@ $ ->
         # )
         pullDown()
 
-    $(".steve-img").imagesLoaded pullDown
+    $(".headshot-img").imagesLoaded pullDown
 

@@ -17,7 +17,7 @@
     $(window).resize(function() {
       return pullDown();
     });
-    return $(".steve-img").imagesLoaded(pullDown);
+    return $(".headshot-img").imagesLoaded(pullDown);
   });
 
 }).call(this);

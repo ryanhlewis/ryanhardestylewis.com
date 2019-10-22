@@ -4,7 +4,7 @@ layout: 'default'
 
 <div class="row">
     <div class="span2">
-        <img class="steve-img" src="img/amypavel.jpg" alt="" />
+        <img class="headshot-img" src="img/amypavel.jpg" alt="Amy Pavel headshot" />
     </div>
     <div class="span10 pull-down">
         <div class="row">
