@@ -4,6 +4,7 @@ authors: "Amy Pavel, Floraine Berthouzoz, Björn Hartmann, Maneesh Agrawala"
 venueFull: "Berkeley EECS Technical Report and Poster Presentation"
 venueShort: "TR 2013, TECHCON 2013"
 thumbnail: "img/thumbnails/sifter.png"
+thumbnailalt: "A thumbnail of the Sifter interface for browsing common sets of image editing commands."
 link: "http://vis.berkeley.edu/papers/sifter/"
 date: "2013-02-11"
 ---

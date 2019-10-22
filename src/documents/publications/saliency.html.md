@@ -1,6 +1,7 @@
 ---
 title: "Saliency in VR: How do people explore virtual environments?"
 thumbnail: "img/thumbnails/saliency.png"
+thumbnailalt: "A thumbnail of a paper figure including nine images with heat maps indicating visual saliency in VR."
 venueShort: "VR 2018"
 venueFull: "IEEE Transactions on Visualization and Computer Graphics"
 authors: "Vincent Sitzmann*, Ana Serrano*, Amy Pavel, Maneesh Agrawala, Diego Gutierrez, Belen Masia, and Gordon Wetzstein"

@@ -12,7 +12,9 @@ layout: 'default'
                 <h1>Amy Pavel</h1>
             </div>
             <div class="span12">
-                <p>amypavel at eecs.berkeley.edu | <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">(scholar)</a> | <a href="https://docs.google.com/document/d/e/2PACX-1vQRX0wsLY8xqfk7THGrOmYZgu3Ig1RteUYND3ajwNjJcS3Zk2AM5aodPxavROOiGG2hFot-iuVYtJd3/pub">(cv)</a> | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a></p>
+                <p>amypavel at eecs.berkeley.edu | <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">(scholar)</a> 
+                <!-- | <a href="https://docs.google.com/document/d/e/2PACX-1vQRX0wsLY8xqfk7THGrOmYZgu3Ig1RteUYND3ajwNjJcS3Zk2AM5aodPxavROOiGG2hFot-iuVYtJd3/pub">(cv)</a> | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a> -->
+                </p>
             </div>            
         </div>
         <div class="row">
@@ -96,7 +98,7 @@ layout: 'default'
         <div class="paper">
             <div class="row">
                 <div class="span2">
-                    <img src="<%- pub.thumbnail %>">
+                    <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>">
                 </div>
                 <div class="span6">
                 
