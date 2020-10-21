@@ -5,6 +5,6 @@ Personal web site.
 
 First, run `yarn`
 
-To generate site: `docpad generate --env static,deploy`
+To generate site: `yarn docpad generate --env static,deploy`
   
-Local testing: `docpad run`
+Local testing: `yarn docpad run`

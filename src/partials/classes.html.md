@@ -1,7 +1,7 @@
 * INFO C265 &mdash; Interface Aesthetics (Ryokai)
 * CS 260B &mdash; Human Computer Interaction Research (Paulos)
 * INFO 271B &mdash; Quantitative Researh Methods (Cheshire)
-* CS 294-115 &mdash; Human Robot Interaction (Dragan)
+* CS 294-115 &mdash; Algorithmic Human Robot Interaction (Dragan)
 * CS 280 &mdash; Computer Vision (Malik)
 * CS 262a &mdash; Advanced Topics in Computer Systems (Kubiatowicz)
 * CS 270 &mdash; Combinatorial Algorithms and Data Structures (Rao)

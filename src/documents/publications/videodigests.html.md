@@ -11,5 +11,5 @@ date: "2014-10-07"
 
 [Demo][2] | [Code for interface][3]
 
-[2]: http://vis.berkeley.edu/videodigests
+[2]: https://videodigests.com
 [3]: https://github.com/ucbvislab/vdigests

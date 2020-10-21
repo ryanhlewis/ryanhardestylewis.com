@@ -2,12 +2,13 @@
   "name": "amypavel.com",
   "version": "1.0.0",
   "engines": {
-    "node": "12.12.0",
-    "yarn": "1.19.1"
+    "node": "14.5.0",
+    "yarn": "1.22.4"
   },
   "scripts": {
     "build": "docpad generate --env=static,deploy",
-    "deploy": "s3cmd sync out/ s3://amypavel.com/"
+    "deploy": "s3cmd sync out/ s3://amypavel.com/",
+    "start": "docpad run"
   },
   "dependencies": {
     "docpad": "~6.78.1",

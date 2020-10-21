@@ -1,3 +1,11 @@
+<h3> Postdoctoral Fellow &mdash; Carnegie Mellon University </h3>
+Advisor: Jeffrey P. Bigham
+*January 2019 - Present*
+
+<h3> Research Scientist &mdash; Apple </h3>
+Group: Accessibility/ML Research      
+*July 2019 - Present*
+
 <h3> Graduate student researcher &mdash; UC Berkeley </h3>
 Advisors: Björn Hartmann, Maneesh Agrawala
 Committee: Eric Paulos, Björn Hartmann, Maneesh Agrawala, Abigail de Kosnik  

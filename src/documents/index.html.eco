@@ -4,7 +4,7 @@ layout: 'default'
 
 <div class="row">
     <div class="span2">
-        <img class="headshot-img" src="img/amypavel.jpg" alt="Amy Pavel headshot" />
+        <img class="headshot-img" src="img/amypavel-small.png" alt="Amy Pavel headshot" />
     </div>
     <div class="span10 pull-down">
         <div class="row">
@@ -12,7 +12,7 @@ layout: 'default'
                 <h1>Amy Pavel</h1>
             </div>
             <div class="span12">
-                <p>amypavel at eecs.berkeley.edu | <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">(scholar)</a> 
+                <p>apavel at cs.cmu.edu | <a href="https://twitter.com/amypavel">twitter</a>  | <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">scholar</a> 
                 <!-- | <a href="https://docs.google.com/document/d/e/2PACX-1vQRX0wsLY8xqfk7THGrOmYZgu3Ig1RteUYND3ajwNjJcS3Zk2AM5aodPxavROOiGG2hFot-iuVYtJd3/pub">(cv)</a> | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a> -->
                 </p>
             </div>            
@@ -82,13 +82,54 @@ layout: 'default'
 
 <div class="row top-buffer">
     <div class="offset2 span10">
-        <h3>Publications</h3>
+        <h3>Papers</h3>
     </div>
 </div>
 
 <div class="row">
     <div class="offset2 span8">
         <% pubs = @getCollection("pubs").toJSON() %>
+        <% oldPub = false %>
+        <% for pub, i in pubs: %>
+        <% if pub.oldPub? and pub.oldPub and not oldPub: %>
+        <h3>Old publications (unrelated to current interests)</h3>
+        <% oldPub = true %>
+        <% end %>
+        <div class="paper">
+            <div class="row">
+                <div class="span2">
+                    <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>">
+                </div>
+                <div class="span6">
+                
+                    <% if pub.link?: %>
+                    <a href="<%- pub.link %>"><%- pub.title %></a><br />
+                    <% else: %>
+                    <%- pub.title %><br />
+                    <% end %>
+                    <%- pub.authors %><br />
+                    <%- pub.venueFull %> (<%- pub.venueShort %>).
+                    <%- pub.contentRendered %>
+                </div>
+            </div>
+        </div>
+        <% if i < pubs.length - 1: %>
+        <hr>
+        <% end %>
+
+        <% end %>
+    </div>
+</div>
+
+<div class="row top-buffer">
+    <div class="offset2 span10">
+        <h3>Posters and workshops</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="offset2 span8">
+        <% pubs = @getCollection("posters").toJSON() %>
         <% oldPub = false %>
         <% for pub, i in pubs: %>
         <% if pub.oldPub? and pub.oldPub and not oldPub: %>
@@ -162,6 +203,7 @@ layout: 'default'
         <% end %>
     </div>
 </div>
+
 
 <% end %>
 

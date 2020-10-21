@@ -104,6 +104,7 @@ docpadConfig = {
                     write: false
                 )
 
+
 		ongoing: (database) ->
 			query =
 				relativeOutDirPath: $startsWith: 'ongoing'
@@ -119,6 +120,18 @@ docpadConfig = {
 		classprojects: (database) ->
 			query =
 				relativeOutDirPath: $startsWith: 'classprojects'
+
+			sorting =
+				date: -1
+
+			database.findAllLive(query, sorting).on "add", (pub) ->
+		        pub.setMeta(
+		            write: false
+		        )
+
+		posters: (database) ->
+			query =
+				relativeOutDirPath: $startsWith: 'posters'
 
 			sorting =
 				date: -1
