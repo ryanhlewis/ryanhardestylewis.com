@@ -9,8 +9,9 @@ link: "https://dl.acm.org/doi/10.1145/3379337.3415864"
 date: "2020-10-08"
 ---
 
-[PDF][1] | [5 Minute Talk][2] | [15 Minute Talk][3]
+[PDF][1] | [Video][2] | [Talk (YouTube, 15 Minutes)][3]
 
 [1]: papers/rescribe.pdf
-[2]: https://youtu.be/iVVohkMu5jE
+[2]: https://youtu.be/LwVCFN4vytc
 [3]: https://www.youtube.com/watch?v=jmyPmT5T0PY
+[4]: https://videodigests.com/view/Ewo_1arJq/Rescribe-Authoring-and-Automatically-Editing-Audio-Descriptions-15-Minute-Presentation
