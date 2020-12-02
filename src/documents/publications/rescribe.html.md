@@ -11,8 +11,9 @@ highlight: true
 highlightDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed augue sed tortor ornare venenatis non sed lorem. Vestibulum arcu dui, ultrices ut dolor nec, iaculis elementum ligula. Cras consectetur consectetur nisl, a rhoncus arcu mollis id. Fusce vel vestibulum est. Curabitur sed elit at quam mollis volutpat."
 ---
 
-[PDF][1] | [5 Minute Talk][2] | [15 Minute Talk][3]
+[PDF][1] | [Video][2] | [Talk (YouTube, 15 Minutes)][3]
 
 [1]: papers/rescribe.pdf
-[2]: https://youtu.be/iVVohkMu5jE
+[2]: https://youtu.be/LwVCFN4vytc
 [3]: https://www.youtube.com/watch?v=jmyPmT5T0PY
+[4]: https://videodigests.com/view/Ewo_1arJq/Rescribe-Authoring-and-Automatically-Editing-Audio-Descriptions-15-Minute-Presentation
