@@ -8,8 +8,7 @@ layout: 'default'
         <div id="contact">
             <h1>Amy Pavel</h1>
             <p>apavel at cs.cmu.edu</p>
-            <p><a href="https://twitter.com/amypavel">twitter</a> · <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">scholar</a></p>
-            <!-- | <a href="https://docs.google.com/document/d/e/2PACX-1vQRX0wsLY8xqfk7THGrOmYZgu3Ig1RteUYND3ajwNjJcS3Zk2AM5aodPxavROOiGG2hFot-iuVYtJd3/pub">(cv)</a> | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a> -->
+            <p><a href="docs/pavel-cv.pdf">cv</a> · <a href="https://twitter.com/amypavel">twitter</a> · <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">scholar</a></p>
             </p>
         </div>
     </div>
@@ -70,6 +69,7 @@ layout: 'default'
 
 <hr />
 
+<% if @getCollection("news").toJSON().length > 0: %>
 <div class="row" id="news">
     <div class="span2">
         <h2>News</h2>
@@ -78,8 +78,8 @@ layout: 'default'
         <%- @partial('news') %>
     </div>
 </div>
-
 <hr />
+<% end %>
 
 <div class="row" id="research">
     <div class="span2">

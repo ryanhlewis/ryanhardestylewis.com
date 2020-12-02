@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="" />
+    <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/files/papers/disabilitycovid.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/index.html.eco" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/index.html.eco" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/news/2020-11-18-hbd.html.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/news/2020-11-29-test-news-item.html.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +30,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/files/papers" />
+      <recent name="$PROJECT_DIR$/src/files" />
       <recent name="$PROJECT_DIR$/out/documents" />
     </key>
   </component>
@@ -44,13 +53,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="322" y="122" width="848" height="626" key="find.popup" timestamp="1606879600778">
+    <state x="322" y="122" width="848" height="626" key="find.popup" timestamp="1606880295799">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="322" y="122" width="848" height="626" key="find.popup/0.25.1680.956@0.25.1680.956" timestamp="1606879600778" />
-    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1606879510853">
+    <state x="322" y="122" width="848" height="626" key="find.popup/0.25.1680.956@0.25.1680.956" timestamp="1606880295799" />
+    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1606880271083">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1606879510853" />
+    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1606880271083" />
   </component>
 </project>

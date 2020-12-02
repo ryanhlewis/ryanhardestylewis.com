@@ -9,4 +9,4 @@ link: "http://amypavel.com/"
 date: "2020-10-01"
 ---
 
-PDF (coming soon)
+[PDF](papers/disabilitycovid.pdf)
