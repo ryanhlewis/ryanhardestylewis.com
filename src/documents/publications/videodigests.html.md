@@ -7,6 +7,8 @@ venueFull: "ACM 27th Symposium on User Interface Software and Technology"
 authors: "Amy Pavel, Colorado Reed, Björn Hartmann, Maneesh Agrawala"
 link: "http://vis.berkeley.edu/papers/videodigests/"
 date: "2014-10-07"
+highlight: true
+highlightDescription: "Some digests and such."
 ---
 
 [Demo][2] | [Code for interface][3]

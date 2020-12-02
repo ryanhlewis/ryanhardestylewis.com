@@ -103,7 +103,31 @@ docpadConfig = {
                 pub.setMeta(
                     write: false
                 )
+		
+		news: (database) -> 
+			query =
+				relativeOutDirPath: $startsWith: 'news'
 
+			sorting = 
+				date: -1
+			
+			database.findAllLive(query, sorting).on "add", (pub) -> 
+				pub.setMeta(
+					write: false
+				)
+		
+		highlights: (database) -> 
+			query =
+				relativeOutDirPath: $startsWith: 'publications'
+				highlight: $eq: true
+
+			sorting = 
+				date: -1
+			
+			database.findAllLive(query, sorting).on "add", (pub) -> 
+				pub.setMeta(
+					write: false
+				)
 
 		ongoing: (database) ->
 			query =

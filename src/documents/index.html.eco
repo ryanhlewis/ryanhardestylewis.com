@@ -5,31 +5,22 @@ layout: 'default'
 <div class="row">
     <div class="span2">
         <img class="headshot-img" src="img/amypavel-small.png" alt="Amy Pavel headshot" />
+        <div id="contact">
+            <h1>Amy Pavel</h1>
+            <p>apavel at cs.cmu.edu</p>
+            <p><a href="https://twitter.com/amypavel">twitter</a> · <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">scholar</a></p>
+            <!-- | <a href="https://docs.google.com/document/d/e/2PACX-1vQRX0wsLY8xqfk7THGrOmYZgu3Ig1RteUYND3ajwNjJcS3Zk2AM5aodPxavROOiGG2hFot-iuVYtJd3/pub">(cv)</a> | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a> -->
+            </p>
+        </div>
     </div>
     <div class="span10 pull-down">
         <div class="row">
-            <div class="span12">
-                <h1>Amy Pavel</h1>
-            </div>
-            <div class="span12">
-                <p>apavel at cs.cmu.edu | <a href="https://twitter.com/amypavel">twitter</a>  | <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">scholar</a> 
-                <!-- | <a href="https://docs.google.com/document/d/e/2PACX-1vQRX0wsLY8xqfk7THGrOmYZgu3Ig1RteUYND3ajwNjJcS3Zk2AM5aodPxavROOiGG2hFot-iuVYtJd3/pub">(cv)</a> | <a href="https://www.linkedin.com/pub/amy-pavel/21/718/28">(in)</a> -->
-                </p>
-            </div>            
-        </div>
-        <div class="row">
-            <div class="span8">
+            <div class="span10">
                 <%- @partial('about') %>
             </div>
-<!--             <div class="span5">
-                <h2><a href="<%- @site.root %>/posts.html">Latest blog posts</a></h2>
-                <% for post in @getCollection("posts").toJSON()[0..2]: %>
-                <p>
-                    <strong><%- @formatDate(post.date) %></strong> &ndash;
-                    <a href="<%- @site.root + post.url %>"><%- post.title %></a>
-                </p>
-                <% end %>
-            </div> -->
+            <div class="span10">
+                <%- @partial('jobmarket') %>
+            </div>
         </div>
     </div>
 </div>
@@ -70,6 +61,25 @@ layout: 'default'
 </div> -->
 
 <div id="maincontent">
+
+<div class="row">
+    <div class="span12"><h2>Research Highlights</h2></div>
+</div>
+
+<%- @partial('highlights') %>
+
+<hr />
+
+<div class="row" id="news">
+    <div class="span2">
+        <h2>News</h2>
+    </div>
+    <div class="span8">
+        <%- @partial('news') %>
+    </div>
+</div>
+
+<hr />
 
 <div class="row" id="research">
     <div class="span2">
@@ -210,33 +220,6 @@ layout: 'default'
 <div class="row top-buffer">
     
 </div>
-
-<!-- <div class="row top-buffer" id="software">
-    <div class="span2">
-        <h2>Software</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('software') %>
-    </div>
-</div> -->
-
-<!-- <div class="row top-buffer" id="background">
-    <div class="span2">
-        <h2>Background</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('background') %>
-    </div>
-</div> -->
-
-<!-- <div class="row top-buffer" id="hobbies"> -->
-<!--     <div class="span2">
-        <h2>Hobbies</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('hobbies') %>
-    </div>
-</div> -->
 
 <div class="row" id="teaching">
     <div class="span2">

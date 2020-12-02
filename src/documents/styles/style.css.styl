@@ -108,3 +108,68 @@ ol li, ul li
 
 .navlist li:last-child:after
   content "."
+
+#jobmarket
+  color white
+  border 1px solid white
+  // border-radius 10px !important
+  padding 7px 13px
+  background: tint(#0088cc, 30%);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, tint(#0088cc, 30%), mix(tint(#9370DB, 30%), tint(#0088cc, 30%), 75%));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, tint(#0088cc, 30%), mix(tint(#9370DB, 30%), tint(#0088cc, 30%), 75%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+#jobmarket p
+  margin: 3px 0
+
+#jobmarket a
+  color white
+  text-decoration underline
+
+#highlights .item
+  border 1px solid #ccc
+  box-sizing border-box
+  padding: 10px
+  margin-bottom: 10px
+  transition border-color 300ms ease;
+
+  &:hover
+    border-color #0088cc
+
+  & p
+    margin 0 0 6px 0
+    padding 0
+
+  & div
+    margin-bottom 6px
+
+  & h3
+    line-height 20px
+    margin-bottom 6px
+
+    & a
+      color black
+
+  & h4 
+    font-weight normal
+    font-style italic
+    text-align right
+
+.highlight-description
+  font-size 11pt
+  color #85738c
+  line-height 20px
+
+#contact
+  & h1 
+    font-size 24pt
+    line-height normal
+  
+  & p
+    margin 0
+    font-size 12pt
+    line-height: normal
+
+@media (max-width: 767px) 
+  .headshot-img
+    max-width 200px

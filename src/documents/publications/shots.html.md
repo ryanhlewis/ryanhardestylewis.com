@@ -7,9 +7,11 @@ thumbnailalt: "A thumbnail of a paper figure indicating three different editing 
 authors: "Amy Pavel, Björn Hartmann, Maneesh Agrawala"
 link: "https://aksp.github.io/interactive360video/"
 date: "2017-10-23"
+highlight: true
+highlightDescription: "Test 123 ok ok ok"
 ---
 
-[PDF][1] | [Interactive Demo][demo] | [Code][code] | [Video][2]
+[PDF][1] | [Code][code] | [Video][2]
 
 [1]: https://aksp.github.io/interactive360video/paper-small.pdf
 [2]: https://www.youtube.com/watch?v=nGXe9qT19t8

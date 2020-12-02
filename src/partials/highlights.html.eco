@@ -1,0 +1,22 @@
+<div class="row" id="highlights">
+    <% items = @getCollection("highlights").toJSON().slice(0, 4) %>
+    <% for pub, i in items: %>
+    <div class="span3 item">
+        <h3>
+            <% if pub.link?: %>
+                <a href="<%- pub.link %>"><%- pub.title %></a>
+                <% else: %>
+                <%- pub.title %>
+            <% end %>
+        </h3>
+        <h4><%- pub.venueShort %></h4>
+        <div>
+            <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>">
+        </div>
+        <div class="highlight-description">
+            <%- pub.highlightDescription %>
+        </div>
+        <%- pub.contentRendered %>
+    </div>
+    <% end %>
+</div>
