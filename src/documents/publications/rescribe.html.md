@@ -8,10 +8,11 @@ thumbnailalt: "On one side, a set of extended audio description sentences with t
 link: "https://dl.acm.org/doi/10.1145/3379337.3415864"
 date: "2020-10-08"
 highlight: true
+highlightName: "Rescribe"
 highlightDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed augue sed tortor ornare venenatis non sed lorem. Vestibulum arcu dui, ultrices ut dolor nec, iaculis elementum ligula. Cras consectetur consectetur nisl, a rhoncus arcu mollis id. Fusce vel vestibulum est. Curabitur sed elit at quam mollis volutpat."
 ---
 
-[PDF][1] | [Video][2] | [Talk (YouTube, 15 Minutes)][3]
+[PDF][1] | [Video][2] | [Talk][3]
 
 [1]: papers/rescribe.pdf
 [2]: https://youtu.be/LwVCFN4vytc

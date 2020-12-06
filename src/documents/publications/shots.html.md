@@ -8,6 +8,7 @@ authors: "Amy Pavel, Björn Hartmann, Maneesh Agrawala"
 link: "https://aksp.github.io/interactive360video/"
 date: "2017-10-23"
 highlight: true
+highlightName: "360° Video"
 highlightDescription: "Test 123 ok ok ok"
 ---
 

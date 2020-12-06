@@ -2,310 +2,152 @@
 layout: 'default'
 ---
 
-<div class="row">
-    <div class="span2">
-        <img class="headshot-img" src="img/amypavel-small.png" alt="Amy Pavel headshot" />
-        <div id="contact">
-            <h1>Amy Pavel</h1>
-            <p>apavel at cs.cmu.edu</p>
-            <p><a href="docs/pavel-cv.pdf">cv</a> · <a href="https://twitter.com/amypavel">twitter</a> · <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">scholar</a></p>
-            </p>
-        </div>
-    </div>
-    <div class="span10 pull-down">
-        <div class="row">
-            <div class="span10">
-                <%- @partial('about') %>
-            </div>
-            <div class="span10">
-                <%- @partial('jobmarket') %>
-            </div>
-        </div>
-    </div>
-</div>
-
-<hr>
-
-<!--<div class="row">
-    <div class="offset2 span10">
-        <ul class="navlist">
-            <li><a href="#research">research</a></li>
-            <li><a href="#background">background</a></li>
-            <li><a href="#hobbies">hobbies</a></li>
-            <li><a href="#work">work</a></li>
-            <li><a href="#classes">classes</a></li>
-        </ul>
-    </div>
-</div>
-
-<hr> -->
-
-<!-- <div class="navigation-wrapper hidden-phone">
-    <div class="navigation">
-        <div id="main-navbar" class="navbar">
-            <div class="navbar-inner">
-                <div class="container">
-                    <ul class="nav">
-                        <li><a href="#research">Research</a></li>
-                        <li><a href="#background">Background</a></li>
-                        <li><a href="#hobbies">Hobbies</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#classes">Classes</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                    </ul>
-                </div>                
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <div id="maincontent">
 
-<div class="row">
-    <div class="span12"><h2>Research Highlights</h2></div>
-</div>
+<div class="row-fluid">
+    <div class="span3 sidebar">
+        <img class="headshot-img roundrect" src="img/amypavel-small.png" alt="Amy Pavel headshot" />
 
-<%- @partial('highlights') %>
+        <h1>Amy Pavel</h1>
 
-<hr />
+        <dl class="compact">
+          <dt>Email</dt>
+          <dd>
+            <a href="mailto:apavel@cs.cmu.edu">apavel@cs.cmu.edu</a>
+          </dd>
+          <dt>CV</dt>
+          <dd>
+            <a href="docs/pavel-cv.pdf">PDF</a>
+          </dd>
+          <dt>Twitter</dt>
+          <dd>
+            <a href="https://twitter.com/amypavel">@amypavel</a>
+          </dd>
+          <dt>Pubs</dt>
+          <dd>
+            <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">
+              Google Scholar
+            </a>
+            <br />
+            <a href="https://www.semanticscholar.org/author/A.-Pavel/48453720">
+              Semantic Scholar
+            </a>
+          </dd>
+        </dl>
 
-<% if @getCollection("news").toJSON().length > 0: %>
-<div class="row" id="news">
-    <div class="span2">
-        <h2>News</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('news') %>
-    </div>
-</div>
-<hr />
-<% end %>
+        <h2>Affiliation</h2>
+        <dl>
+          <dt>Carnegie Mellon University</dt>
+          <dd>
+            <p>Postdoctoral Fellow, HCII</p>
+            <p>Supervised by <a href="https://www.cs.cmu.edu/~jbigham/">Jeffrey P. Bigham</a></p>
+          </dd>
+          <dt>Apple</dt>
+          <dd>
+            <p>Research Scientist, AI/ML</p>
+          </dd>
+        <dl>
 
-<div class="row" id="research">
-    <div class="span2">
-        <h2>Research</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('research') %>
-    </div>
-</div>
-
-<div class="row top-buffer">
-    <div class="offset2 span10">
-        <h3>Papers</h3>
-    </div>
-</div>
-
-<div class="row">
-    <div class="offset2 span8">
-        <% pubs = @getCollection("pubs").toJSON() %>
-        <% oldPub = false %>
-        <% for pub, i in pubs: %>
-        <% if pub.oldPub? and pub.oldPub and not oldPub: %>
-        <h3>Old publications (unrelated to current interests)</h3>
-        <% oldPub = true %>
-        <% end %>
-        <div class="paper">
-            <div class="row">
-                <div class="span2">
-                    <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>">
-                </div>
-                <div class="span6">
-                
-                    <% if pub.link?: %>
-                    <a href="<%- pub.link %>"><%- pub.title %></a><br />
-                    <% else: %>
-                    <%- pub.title %><br />
-                    <% end %>
-                    <%- pub.authors %><br />
-                    <%- pub.venueFull %> (<%- pub.venueShort %>).
-                    <%- pub.contentRendered %>
-                </div>
-            </div>
-        </div>
-        <% if i < pubs.length - 1: %>
-        <hr>
-        <% end %>
-
-        <% end %>
-    </div>
-</div>
-
-<div class="row top-buffer">
-    <div class="offset2 span10">
-        <h3>Posters and workshops</h3>
-    </div>
-</div>
-
-<div class="row">
-    <div class="offset2 span8">
-        <% pubs = @getCollection("posters").toJSON() %>
-        <% oldPub = false %>
-        <% for pub, i in pubs: %>
-        <% if pub.oldPub? and pub.oldPub and not oldPub: %>
-        <h3>Old publications (unrelated to current interests)</h3>
-        <% oldPub = true %>
-        <% end %>
-        <div class="paper">
-            <div class="row">
-                <div class="span2">
-                    <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>">
-                </div>
-                <div class="span6">
-                
-                    <% if pub.link?: %>
-                    <a href="<%- pub.link %>"><%- pub.title %></a><br />
-                    <% else: %>
-                    <%- pub.title %><br />
-                    <% end %>
-                    <%- pub.authors %><br />
-                    <%- pub.venueFull %> (<%- pub.venueShort %>).
-                    <%- pub.contentRendered %>
-                </div>
-            </div>
-        </div>
-        <% if i < pubs.length - 1: %>
-        <hr>
-        <% end %>
-
-        <% end %>
-    </div>
-</div>
-
-<% ongoingPubs = @getCollection("ongoing").toJSON() %>
-<% if ongoingPubs.length > 0: %>
-<div class="row top-buffer">
-    <div class="offset2 span10">
-        <h3>Ongoing projects</h3>
-    </div>
-</div>
-
-<div class="row">
-    <div class="offset2 span8">
-        <% oldPub = false %>
-        <% for pub, i in ongoingPubs: %>
-        <% if pub.oldPub? and pub.oldPub and not oldPub: %>
-        <h3>Old publications (unrelated to current interests)</h3>
-        <% oldPub = true %>
-        <% end %>
-        <div class="paper">
-            <div class="row">
-                <div class="span2">
-                    <img src="<%- pub.thumbnail %>">
-                </div>
-                <div class="span6">
-                
-                    <% if pub.link?: %>
-                    <a href="<%- pub.link %>"><%- pub.title %></a><br />
-                    <% else: %>
-                    <%- pub.title %><br />
-                    <% end %>
-                    <%- pub.authors %><br />
-                    <%- pub.venueFull %> (<%- pub.venueShort %>).
-                    <%- pub.contentRendered %>
-                </div>
-            </div>
-        </div>
-        <% if i < ongoingPubs.length - 1: %>
-        <hr>
-        <% end %>
-
-        <% end %>
-    </div>
-</div>
-
-
-<% end %>
-
-<div class="row top-buffer">
-    
-</div>
-
-<div class="row" id="teaching">
-    <div class="span2">
-        <h2 style="margin-top:20px">Teaching</h2>
-    </div>
-    <div class="span8">
+        <h2>Teaching</h2>
         <%- @partial('teaching') %>
     </div>
-</div>
+    <div class="span9 pull-down">
+      <%- @partial('about') %>
+      <%- @partial('jobmarket') %>
 
-<div class="row top-buffer" id="work">
-    <div class="span2">
-        <h2 style="margin-top:20px">Work</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('work') %>
-    </div>
-</div>
+      <hr>
+      <h2>Research Highlights</h2>
+      <%- @partial('highlights') %>
 
-<!-- <div class="row" id="service">
-    <div class="span2">
-        <h2 style="margin-top:20px">Service</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('service') %>
-    </div>
-</div> -->
+      <% if @getCollection("news").toJSON().length > 0: %>
+      <div class="row-fluid" id="news">
+          <div class="span2">
+              <h2>News</h2>
+          </div>
+          <div class="span10">
+              <%- @partial('news') %>
+          </div>
+      </div>
+      <hr />
+      <% end %>
+
+      <h2 class="top-buffer">Research</h2>
+      <%- @partial('research') %>
 
 
-<div class="row top-buffer" id="classes">
-    <div class="span2">
-        <h2>Classes</h2>
-    </div>
-    <div class="span8">
-        <h3>Grad classes</h3>
-        <%- @partial('classes') %>
+      <h2 class="top-buffer">Conference Papers</h2>
+      <% pubs = @getCollection("pubs").toJSON() %>
+      <% for pub, i in pubs: %>
+      <div class="paper">
+          <div class="row-fluid">
+              <div class="span3">
+                  <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>">
+              </div>
+              <div class="span9">
+                  <% if pub.link?: %>
+                  <a href="<%- pub.link %>"><%- pub.title %></a><br />
+                  <% else: %>
+                  <%- pub.title %><br />
+                  <% end %>
+                  <%- pub.authors %><br />
+                  <%- pub.venueFull %> (<%- pub.venueShort %>).
+                  <%- pub.contentRendered %>
+              </div>
+          </div>
+      </div>
+      <% if i < pubs.length - 1: %>
+      <hr class="paper-break">
+      <% end %>
 
-        <h3>Class projects</h3>
-    </div>
-</div>
+      <% end %>
 
-<div class="row">
-    <div class="offset2 span8">
-        <% pubs = @getCollection("classprojects").toJSON() %>
-        <% oldPub = false %>
-        <% for pub, i in pubs: %>
-        <% if pub.oldPub? and pub.oldPub and not oldPub: %>
-        <h3>Old publications (unrelated to current interests)</h3>
-        <% oldPub = true %>
-        <% end %>
-        <div class="paper">
-            <div class="row">
-                <div class="span2">
-                    <img src="<%- pub.thumbnail %>">
-                </div>
-                <div class="span6">
-                
-                    <% if pub.link?: %>
-                    <a href="<%- pub.link %>"><%- pub.title %></a><br />
-                    <% else: %>
-                    <%- pub.title %><br />
-                    <% end %>
-                    <%- pub.authors %><br />
-                    <%- pub.venueFull %> (<%- pub.venueShort %>).
-                    <%- pub.contentRendered %>
-                </div>
-            </div>
+      <h2 class="top-buffer">Thesis and tech reports</h2>
+      <div class="paper">
+        <div class="row-fluid">
+          <div class="span3">
+            <img src="img/thumbnails/thesis.png" alt="Title page of dissertation" />
+          </div>
+          <div class="span9">
+            <a href="https://escholarship.org/uc/item/94x1w5r1">Navigating Video Using Structured Text</a><br />
+            Amy Pavel<br />
+            PhD in Computer Science, University of California, Berkeley<br />
+            Advisors: Bjoern Hartmann and Maneesh Agrawala<br/>
+            Additional committee members: Eric Paulos, Abigail De Kosnik
+          </div>
         </div>
-        <% if i < pubs.length - 1: %>
-        <hr>
-        <% end %>
+      </div>
 
-        <% end %>
+      <h2 class="top-buffer">Posters and workshops</h2>
+      <% pubs = @getCollection("posters").toJSON() %>
+      <% oldPub = false %>
+      <% for pub, i in pubs: %>
+      <div class="paper">
+          <div class="row-fluid">
+              <div class="span3">
+                  <img src="<%- pub.thumbnail %>" alt="<%- pub.thumbnailalt %>" />
+              </div>
+              <div class="span9">
+                  <% if pub.link?: %>
+                  <a href="<%- pub.link %>"><%- pub.title %></a><br />
+                  <% else: %>
+                  <%- pub.title %><br />
+                  <% end %>
+                  <%- pub.authors %><br />
+                  <%- pub.venueFull %> (<%- pub.venueShort %>).
+                  <%- pub.contentRendered %>
+              </div>
+          </div>
+      </div>
+      <% if i < pubs.length - 1: %>
+      <hr class="paper-break">
+      <% end %>
+
+      <% end %>
+
+      <h2 class="top-buffer">Work</h2>
+      <%- @partial('work') %>
     </div>
 </div>
-
-<!-- <div class="row top-buffer" id="work">
-    <div class="span2">
-        <h2>Service</h2>
-    </div>
-    <div class="span8">
-        <%- @partial('service') %>
-    </div>
-</div> -->
-
-
 
 </div> <!-- #maincontent -->
 

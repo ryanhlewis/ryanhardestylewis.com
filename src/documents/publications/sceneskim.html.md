@@ -8,6 +8,7 @@ thumbnailalt: ""
 venueFull: "ACM 28th Symposium on User Interface Software and Technology"
 venueShort: "UIST 2015"
 highlight: true
+highlightName: "SceneSkim"
 highlightDescription: "Skim the scenes!"
 ---
 

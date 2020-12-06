@@ -8,10 +8,12 @@ authors: "Amy Pavel, Colorado Reed, Björn Hartmann, Maneesh Agrawala"
 link: "http://vis.berkeley.edu/papers/videodigests/"
 date: "2014-10-07"
 highlight: true
+highlightName: "Video Digests"
 highlightDescription: "Some digests and such."
 ---
 
-[Demo][2] | [Code for interface][3]
+[PDF][1] | [Demo][2] | [Code][3]
 
+[1]: http://vis.berkeley.edu/papers/videodigests/videodigests_small.pdf
 [2]: https://videodigests.com
 [3]: https://github.com/ucbvislab/vdigests
