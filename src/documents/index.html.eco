@@ -3,13 +3,20 @@ layout: 'default'
 ---
 
 <div id="maincontent">
-
+<h1 class="header-hame">Amy Pavel</h1>
 <div class="row-fluid">
     <div class="span3 sidebar">
-        <img class="headshot-img roundrect" src="img/amypavel-small.png" alt="Amy Pavel headshot" />
+        <img class="headshot-img" src="img/amypavel-small.png" alt="Amy Pavel headshot" />
+        <!--
+        <a href="">CMU HCII</a> | <a href="">Accessibility@CMU</a> <br>
+        <a href="">Apple, Inc.</a> | <a href="https://machinelearning.apple.com/">AI/ML Research</a> 
+        -->
+        <br></br>
+        Email <a href="mailto:apavel@cs.cmu.edu">apavel@cs.cmu.edu</a><br>
+        Twitter <a href="https://twitter.com/amypavel">@amypavel</a><br>
+        Publications <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">Google Scholar</a>
 
-        <h1>Amy Pavel</h1>
-
+        <!--
         <dl class="compact">
           <dt>Email</dt>
           <dd>
@@ -34,22 +41,15 @@ layout: 'default'
             </a>
           </dd>
         </dl>
+        -->
+        <br></br>
+        <a>Carnegie Mellon University<br>
+        <a href="https://www.hcii.cmu.edu/">HCII</a>, <a href="http://accessibility.cs.cmu.edu/">Accessibility@CMU</a><br>
+        <em>Postdoctoral Fellow</em><br>
+        <br>
+        <a href="https://www.apple.com/">Apple, Inc.</a>, <a href="https://machinelearning.apple.com/research/">AI/ML Research</a><br>
+        <em>Research Scientist</em><br>
 
-        <h2>Affiliation</h2>
-        <dl>
-          <dt>Carnegie Mellon University</dt>
-          <dd>
-            <p>Postdoctoral Fellow, HCII</p>
-            <p>Supervised by <a href="https://www.cs.cmu.edu/~jbigham/">Jeffrey P. Bigham</a></p>
-          </dd>
-          <dt>Apple</dt>
-          <dd>
-            <p>Research Scientist, AI/ML</p>
-          </dd>
-        <dl>
-
-        <h2>Teaching</h2>
-        <%- @partial('teaching') %>
     </div>
     <div class="span9 pull-down">
       <%- @partial('about') %>
@@ -101,7 +101,8 @@ layout: 'default'
 
       <% end %>
 
-      <h2 class="top-buffer">Thesis and tech reports</h2>
+      <h2 class="top-buffer">Thesis and Technical Reports</h2>
+
       <div class="paper">
         <div class="row-fluid">
           <div class="span3">
@@ -115,6 +116,24 @@ layout: 'default'
             Additional committee members: Eric Paulos, Abigail De Kosnik
           </div>
         </div>
+      </div>
+
+      <hr class="paper-break">
+
+      <div class="paper">
+          <div class="row-fluid">
+              <div class="span3">
+                  <img src="img/thumbnails/sifter.png" alt="A thumbnail of the Sifter interface for browsing common sets of image editing commands.">
+              </div>
+              <div class="span9">
+                  
+                  <a href="http://vis.berkeley.edu/papers/sifter/">Browsing and Analyzing the Command-Level Structure of Large Collections of Image Manipulation Tutorials</a><br>
+                  
+                  Amy Pavel, Floraine Berthouzoz, Björn Hartmann, Maneesh Agrawala<br>
+                  Berkeley EECS Technical Report and Poster Presentation (TR 2013, TECHCON 2013).
+                  
+              </div>
+          </div>
       </div>
 
       <h2 class="top-buffer">Posters and workshops</h2>

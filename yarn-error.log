@@ -1,42 +1,43 @@
 Arguments: 
-  /usr/local/Cellar/node/12.12.0/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js publish
+  /usr/local/Cellar/node/14.5.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js publish
 
 PATH: 
-  /Users/amypavel/miniconda3/bin:/Users/amypavel/miniconda3/condabin:/Users/amypavel/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+  /Users/amypavel/.cargo/bin:/Users/amypavel/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/amypavel/.cargo/bin:/Users/amypavel/Dropbox/Sites/expertise-transfer/infilling/google-cloud-sdk/bin:/Users/amypavel/miniconda3/bin:/Users/amypavel/miniconda3/condabin
 
 Yarn version: 
-  1.19.1
+  1.22.4
 
 Node version: 
-  12.12.0
+  14.5.0
 
 Platform: 
   darwin x64
 
 Trace: 
   Error: canceled
-      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:136824:13)
-      at Interface.emit (events.js:210:5)
-      at Interface._ttyWrite (readline.js:887:16)
-      at ReadStream.onkeypress (readline.js:191:10)
-      at ReadStream.emit (events.js:210:5)
-      at emitKeys (internal/readline/utils.js:433:14)
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:137008:13)
+      at Interface.emit (events.js:314:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:314:20)
+      at emitKeys (internal/readline/utils.js:335:14)
       at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1153:36)
-      at ReadStream.emit (events.js:210:5)
-      at addChunk (_stream_readable.js:308:12)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:304:12)
 
 npm manifest: 
   {
     "name": "amypavel.com",
     "version": "1.0.0",
     "engines": {
-      "node": "12.12.0",
-      "yarn": "1.19.1"
+      "node": "14.5.0",
+      "yarn": "1.22.4"
     },
     "scripts": {
       "build": "docpad generate --env=static,deploy",
-      "publish": "s3cmd sync out/ s3://amypavel.com/"
+      "deploy": "s3cmd sync out/ s3://amypavel.com/",
+      "start": "docpad run"
     },
     "dependencies": {
       "docpad": "~6.78.1",

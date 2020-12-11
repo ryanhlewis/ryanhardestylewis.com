@@ -9,6 +9,7 @@ link: "http://amypavel.com/"
 date: "2020-09-21"
 ---
 
-[PDF][1] | Video (coming soon)
+[PDF][1] | [Video][2]
 
 [1]: papers/accessiblear.pdf
+[2]: https://www.youtube.com/watch?v=AxKKGoD3TZk
