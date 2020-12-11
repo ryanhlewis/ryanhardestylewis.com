@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/papers/disabilitycovid.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/index.html.eco" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/index.html.eco" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/news/2020-11-18-hbd.html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/news/2020-11-29-test-news-item.html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/vendor/twitter-bootstrap/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/vendor/twitter-bootstrap/css/bootstrap-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/twitter-bootstrap/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twitter-bootstrap/css/bootstrap-responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +50,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="322" y="122" width="848" height="626" key="find.popup" timestamp="1606880295799">
+    <state x="288" y="149" key="#Plugins" timestamp="1607223183542">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="322" y="122" width="848" height="626" key="find.popup/0.25.1680.956@0.25.1680.956" timestamp="1606880295799" />
-    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1606880271083">
+    <state x="288" y="149" key="#Plugins/0.25.1680.956@0.25.1680.956" timestamp="1607223183542" />
+    <state x="152" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607219113392">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1606880271083" />
+    <state x="152" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.956@0.25.1680.956" timestamp="1607219113392" />
+    <state x="322" y="122" width="848" height="626" key="find.popup" timestamp="1607664873827">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="322" y="122" width="848" height="626" key="find.popup/0.25.1680.956@0.25.1680.956" timestamp="1607664873827" />
+    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1607664994528">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1607664994528" />
   </component>
 </project>
