@@ -1,6 +1,9 @@
-My dissertation research focuses on developing new algorithms and interfaces for searching, browsing and skimming videos. My projects include new text-based interfaces for exploring educational lecture videos, films, and video critiques. In addition, I've worked to understand how people view and interact with 360° videos. Though I've used video as a medium, I'm broadly interested in how to support users in benefiting from imperfect computational results in domains such as search, collaboration, and content generation.
-<!-- Using video as a medium, I'm interested in how to support users in interpreting/benefiting from imperfect computational results in domains such as search, collaboration, and content generation. -->
-<!-- the broader question: how can we support users in interpreting and benefiting from imperfect computational results? i -->
-<!-- Through working with video as a medium, I'm broadly interested in how we can use imperfect computational results to support information seeking for the purposes of research (e.g., finding clips in film or lectures), collaboration (e.g., feedback and revision), and content creation (e.g., reorienting shots in 360° videos). -->
+My research leverages the connections between communication mediums (*e.g.*, spoken audio, multiple video sources, text transcripts) to enable people to fully participate in and better work with digital communication. As a **systems researcher** in **Human-Computer Interaction**, I embed machine learning technologies (*e.g.*, NLP, Computer Vision) into new human interactions that I then deploy to test. Using my systems, remote [content creators][1] more effectively collaborate, [video authors][2] efficiently create accessible descriptions for blind users, and [instructors][3] help students to learn and retain key points. To inform future systems that capture what is important to domain experts and people with disabilities, I conduct and collaborate on in-depth qualitative (*e.g.*, [AAC communication][4], [memes][5]) and quantitative studies (*e.g.*, [360° Video][6], [VR Saliency][7]). My long term research goal is to make communication more effective and accessible to all. 
 
-As an undergraduate, I worked on a system for searching and browsing photoshop tutorials, and tools for helping crowdworkers provide useful design critiques. 
+[1]: https://dl.acm.org/doi/10.1145/2984511.2984552
+[2]: https://dl.acm.org/doi/10.1145/3379337.3415864
+[3]: https://videodigests.com/
+[4]: https://dl.acm.org/doi/10.1145/3313831.3376376
+[5]: https://dl.acm.org/doi/10.1145/3308561.3353792
+[6]: https://aksp.github.io/interactive360video/
+[7]: https://vsitzmann.github.io/vr-saliency/

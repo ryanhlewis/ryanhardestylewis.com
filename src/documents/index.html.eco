@@ -50,6 +50,7 @@ layout: 'default'
         <a href="https://www.apple.com/">Apple, Inc.</a>, <a href="https://machinelearning.apple.com/research/">AI/ML Research</a><br>
         <em>Research Scientist</em><br>
 
+
     </div>
     <div class="span9 pull-down">
       <%- @partial('about') %>
@@ -71,7 +72,7 @@ layout: 'default'
       <hr />
       <% end %>
 
-      <h2 class="top-buffer">Research</h2>
+      <h2 class="top-buffer">Research Summary</h2>
       <%- @partial('research') %>
 
 
@@ -165,6 +166,10 @@ layout: 'default'
 
       <h2 class="top-buffer">Work</h2>
       <%- @partial('work') %>
+
+      <h2 class="top-buffer">Teaching</h2>
+      <%- @partial('teaching') %>
+
     </div>
 </div>
 
