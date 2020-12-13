@@ -78,6 +78,13 @@ layout: 'default'
 
       <h2 class="top-buffer">Conference Papers</h2>
       <% pubs = @getCollection("pubs").toJSON() %>
+
+      <% authorsList = @getCollection("authors").toJSON() %>
+      <% allAuthors = {} %>
+      <% for author in authorsList: %>
+      <%  allAuthors[author.basename] = author %>
+      <% end %>
+
       <% for pub, i in pubs: %>
       <div class="paper">
           <div class="row-fluid">
@@ -86,11 +93,11 @@ layout: 'default'
               </div>
               <div class="span9">
                   <% if pub.link?: %>
-                  <a href="<%- pub.link %>"><%- pub.title %></a><br />
+                  <a href="<%- pub.link %>"><strong><%- pub.title %></strong></a><br />
                   <% else: %>
-                  <%- pub.title %><br />
+                  <strong><%- pub.title %></strong><br />
                   <% end %>
-                  <%- pub.authors %><br />
+                  <%- @renderAuthors(pub.authors, allAuthors) %><br />
                   <%- pub.venueFull %> (<%- pub.venueShort %>).
                   <%- pub.contentRendered %>
               </div>
@@ -129,8 +136,8 @@ layout: 'default'
               <div class="span9">
                   
                   <a href="http://vis.berkeley.edu/papers/sifter/">Browsing and Analyzing the Command-Level Structure of Large Collections of Image Manipulation Tutorials</a><br>
-                  
-                  Amy Pavel, Floraine Berthouzoz, Björn Hartmann, Maneesh Agrawala<br>
+
+                  <%- @renderAuthors(['apavel', 'fberthouzoz', 'bhartmann', 'magrawala'], allAuthors) %><br />
                   Berkeley EECS Technical Report and Poster Presentation (TR 2013, TECHCON 2013).
                   
               </div>
@@ -148,11 +155,11 @@ layout: 'default'
               </div>
               <div class="span9">
                   <% if pub.link?: %>
-                  <a href="<%- pub.link %>"><%- pub.title %></a><br />
+                  <a href="<%- pub.link %>"><strong><%- pub.title %></strong></a><br />
                   <% else: %>
-                  <%- pub.title %><br />
+                  <strong><%- pub.title %></strong><br />
                   <% end %>
-                  <%- pub.authors %><br />
+                  <%- @renderAuthors(pub.authors, allAuthors) %><br />
                   <%- pub.venueFull %> (<%- pub.venueShort %>).
                   <%- pub.contentRendered %>
               </div>

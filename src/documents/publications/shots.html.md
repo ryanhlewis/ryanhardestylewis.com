@@ -1,10 +1,14 @@
 ---
 title: "Shot Orientation Controls for Interactive Cinematography with 360 Video"
+write: false
 venueShort: "UIST 2017"
 venueFull: "ACM 30th Symposium on User Interface Software and Technology"
 thumbnail: "img/thumbnails/shots.png"
 thumbnailalt: "A thumbnail of a paper figure indicating three different editing techniques for 360 video: traditional, viewpoint-oriented cuts and active reorientation."
-authors: "Amy Pavel, Björn Hartmann, Maneesh Agrawala"
+authors:
+- apavel
+- bhartmann
+- magrawala
 link: "https://aksp.github.io/interactive360video/"
 date: "2017-10-23"
 highlight: true

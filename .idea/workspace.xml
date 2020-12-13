@@ -3,18 +3,48 @@
   <component name="ChangeListManager">
     <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/vendor/twitter-bootstrap/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/vendor/twitter-bootstrap/css/bootstrap-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twitter-bootstrap/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twitter-bootstrap/css/bootstrap-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docpad.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/cv.html.eco" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/index.html.eco" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/index.html.eco" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/posters/crowdcritposter.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/posters/crowdcritposter.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/posters/soapnotes.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/posters/soapnotes.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/posters/twittera11yposter.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/posters/twittera11yposter.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/aacagency.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/aacagency.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/accessiblear.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/accessiblear.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/crowdcrit.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/crowdcrit.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/gifs.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/gifs.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/memes.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/memes.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/multiref.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/multiref.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/rescribe.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/rescribe.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/saliency.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/saliency.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/sayitall.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/sayitall.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/sceneskim.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/sceneskim.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/shots.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/shots.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/twittera11y.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/twittera11y.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/vidcrit.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/vidcrit.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/videodigests.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/videodigests.html.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documents/publications/videosearch.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/videosearch.html.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l5GOKSGzcpmtnK7lldzZHuLmnB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -22,8 +52,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,13 +91,21 @@
       <screen x="0" y="25" width="1680" height="956" />
     </state>
     <state x="152" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.956@0.25.1680.956" timestamp="1607219113392" />
-    <state x="322" y="122" width="848" height="626" key="find.popup" timestamp="1607664873827">
+    <state x="143" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607830231439">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="322" y="122" width="848" height="626" key="find.popup/0.25.1680.956@0.25.1680.956" timestamp="1607664873827" />
-    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1607664994528">
+    <state x="143" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.956@0.25.1680.956" timestamp="1607830231439" />
+    <state x="0" y="139" key="SettingsEditor" timestamp="1607828806904">
       <screen x="0" y="25" width="1680" height="956" />
     </state>
-    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1607664994528" />
+    <state x="0" y="139" key="SettingsEditor/0.25.1680.956@0.25.1680.956" timestamp="1607828806904" />
+    <state x="322" y="122" width="848" height="626" key="find.popup" timestamp="1607831574286">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="322" y="122" width="848" height="626" key="find.popup/0.25.1680.956@0.25.1680.956" timestamp="1607831574286" />
+    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1607831903732">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="536" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1680.956@0.25.1680.956" timestamp="1607831903732" />
   </component>
 </project>

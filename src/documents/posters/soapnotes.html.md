@@ -1,6 +1,11 @@
 ---
 title: "Extracting Structured Data from Doctor-Patient Conversations By Predicting Noteworthy Utterances"
-authors: "Kundan Krishna, Amy Pavel, Benjamin Schloss, Jeffrey Bigham and Zachary Lipton"
+authors:
+- kkrishna
+- apavel
+- bschloss
+- jbigham
+- zlipton
 date: "2020-01-01"
 link: ""
 thumbnail: "img/thumbnails/soapnotes.png"

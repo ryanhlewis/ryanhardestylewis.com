@@ -1,6 +1,11 @@
 ---
 title: "SceneSkim: Searching and Browsing Movies Using Synchronized Captions, Scripts and Plot Summaries"
-authors: "Amy Pavel, Dan B Goldman, Björn Hartmann, Maneesh Agrawala"
+write: false
+authors:
+- apavel
+- dgoldman
+- bhartmann
+- magrawala
 date: "2015-11-07"
 link: "http://vis.berkeley.edu/papers/sceneskim/"
 thumbnail: "img/thumbnails/sceneskim.png"
