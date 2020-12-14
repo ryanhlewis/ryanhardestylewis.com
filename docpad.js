@@ -25,16 +25,16 @@ const docpadConfig = {
 			],
 
 			// The default title of our website
-			title: "Amy Pavel @ Berkeley EECS",
+			title: "Amy Pavel",
 
 			// The website description (for SEO)
 			description: `\
-Personal website of Amy Pavel, PhD student at UC Berkeley.\
+Personal website of Amy Pavel, Postdoctoral Scholar at Carnegie Mellon University, Research Scientist at Apple, and previously a Ph.D. student at UC Berkeley.\
 `,
 
 			// The website keywords (for SEO) separated by commas
 			keywords: `\
-amy pavel, video digests, sceneskim, sifter, berkeley, eecs, uc berkeley, cs, computer science, hci, music\
+amy pavel, video digests, sceneskim, sifter, video, human computer interaction, 360 video, hri, applied ai, applied ml, berkeley, eecs, uc berkeley, cs, computer science, hci, music\
 `,
 
 			// The website author's name

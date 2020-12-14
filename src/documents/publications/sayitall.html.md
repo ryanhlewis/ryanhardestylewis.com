@@ -5,6 +5,7 @@ venueShort: "Conditionally Accepted to CHI 2021"
 venueFull: "The ACM Conference on Computer Human Interaction"
 authors:
 - ypeng
+- jjang
 - jbigham
 - apavel
 thumbnail: "img/thumbnails/sayitall.png"

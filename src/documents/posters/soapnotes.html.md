@@ -7,7 +7,7 @@ authors:
 - jbigham
 - zlipton
 date: "2020-01-01"
-link: ""
+link: "https://arxiv.org/abs/2007.07151"
 thumbnail: "img/thumbnails/soapnotes.png"
 thumbnailalt: "A thumbnail showing a line graph of the precision-at-one of an algorithm going up as the number of noteworthy sentences considered rises. After a certain point, the number of noteworthy sentences decreases the precision at one -- indicating that lower quality noteworthy sentences add noise rather than value to the prediction."
 venueFull: "AAAI Workshop on Health Intelligence"
