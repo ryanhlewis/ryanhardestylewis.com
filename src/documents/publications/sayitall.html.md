@@ -1,7 +1,7 @@
 ---
 title: "Say It All: Feedback for Improving Non-Visual Presentation Accessibility"
 write: false
-venueShort: "Conditionally Accepted to CHI 2021"
+venueShort: "Accepted to CHI 2021"
 venueFull: "The ACM Conference on Computer Human Interaction"
 authors:
 - ypeng

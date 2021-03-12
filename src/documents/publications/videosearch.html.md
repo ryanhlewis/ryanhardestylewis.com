@@ -1,7 +1,7 @@
 ---
 title: "What Makes a Video Accessible to Blind and Visually Impaired People?"
 write: false
-venueShort: "Conditionally Accepted to CHI 2021"
+venueShort: "Accepted to CHI 2021"
 venueFull: "The ACM Conference on Computer Human Interaction"
 authors: 
 - xliu
