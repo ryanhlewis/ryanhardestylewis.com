@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docpad.coffee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/cv.html.eco" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/index.html.eco" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/index.html.eco" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/posters/crowdcritposter.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/posters/crowdcritposter.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/posters/soapnotes.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/posters/soapnotes.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/posters/twittera11yposter.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/posters/twittera11yposter.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/aacagency.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/aacagency.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/accessiblear.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/accessiblear.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/crowdcrit.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/crowdcrit.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/disabilitycovid.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/gifs.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/gifs.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/memes.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/memes.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/multiref.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/multiref.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/rescribe.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/rescribe.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/saliency.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/saliency.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/sayitall.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/sayitall.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/sceneskim.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/sceneskim.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/shots.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/shots.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/twittera11y.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/twittera11y.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/vidcrit.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/vidcrit.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/videodigests.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/videodigests.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/publications/videosearch.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/publications/videosearch.html.md" afterDir="false" />
-    </list>
+    <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
