@@ -4,10 +4,6 @@
     <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/documents/index.html.eco" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/index.html.eco" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/styles/style.css.styl" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/styles/style.css.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/docs/pavel-cv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/docs/pavel-cv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/about.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/about.html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/jobmarket.html.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/jobmarket.html.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

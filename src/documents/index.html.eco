@@ -54,7 +54,7 @@ layout: 'default'
 
         <br>
         Archived job materials<br>
-        <em><a href="docs/pavel-research.pdf">Research</a> · <a href="docs/pavel-teaching.pdf">Teaching</a></em>
+        <a href="docs/pavel-research.pdf">Research</a> · <a href="docs/pavel-teaching.pdf">Teaching</a>
 
 
     </div>
