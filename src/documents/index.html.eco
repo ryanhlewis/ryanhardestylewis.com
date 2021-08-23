@@ -14,7 +14,9 @@ layout: 'default'
         <br></br>
         Email <a href="mailto:apavel@cs.cmu.edu">apavel@cs.cmu.edu</a><br>
         Twitter <a href="https://twitter.com/amypavel">@amypavel</a><br>
-        Publications <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">Google Scholar</a>
+        Publications <a href="https://scholar.google.com/citations?user=bM4pEGoAAAAJ&hl=en">Google Scholar</a><br>
+        <a href="docs/pavel-cv.pdf">CV</a>
+
 
         <!--
         <dl class="compact">
@@ -49,6 +51,10 @@ layout: 'default'
         <br>
         <a href="https://www.apple.com/">Apple, Inc.</a>, <a href="https://machinelearning.apple.com/research/">AI/ML Research</a><br>
         <em>Research Scientist</em><br>
+
+        <br>
+        Archived job materials<br>
+        <em><a href="docs/pavel-research.pdf">Research</a> · <a href="docs/pavel-teaching.pdf">Teaching</a></em>
 
 
     </div>
