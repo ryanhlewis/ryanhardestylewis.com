@@ -30,7 +30,7 @@
             "location": "Berkeley, CA",
             "description": "Visual Computing Lab",
             "position": "Graduate Researcher",
-            "summary": "Advised by Professors Bj\\\"{o}rn Hartmann and Maneesh Agrawala",
+            "summary": "Advised by Professors Björn Hartmann and Maneesh Agrawala",
             "startDate": "2013-09-01",
             "endDate": "2019-01-01"
         },
@@ -47,25 +47,38 @@
             "location": "Berkeley, CA",
             "description": "BiD Lab, Visual Computing Lab",
             "position": "Undergraduate Researcher",
-            "summary": "Advised by Professors Bj\\\"{o}rn Hartmann and Maneesh Agrawala",
+            "summary": "Advised by Professors Björn Hartmann and Maneesh Agrawala",
             "startDate": "2011-06-01",
             "endDate": "2013-09-01"
         }
     ],
     "publications": [
         {
+            "name": "Co-designing Socially Assistive Sidekicks for Motion-based AAC",
+            "releaseDate": "03-29-2021",
+            "authors": ["svalencia", "mluria", "apavel", "jbigham", "hadmoni"],
+            "publisher": "HRI 2021",
+            "tags": ["paper"],
+            "link": "https://dl.acm.org/doi/10.1145/3434073.3444646",
+            "image": "codesigning",
+            "content": "[PDF](papers/codesigning.pdf)"
+        },
+        {
             "name": "What Makes a Video Non-Visually Accessible?",
             "releaseDate": "05-01-2021",
             "authors": ["xliu", "pcarrington", "xchen", "apavel"],
-            "publisher": "Conditionally accepted to CHI 2021",
-            "tags": ["paper"]
+            "publisher": "CHI 2021",
+            "tags": ["paper"],
+            "image": "videosearch"
         },
         {
             "name": "Say it all: Authoring Non-Visually Accessible Presentations.",
             "releaseDate": "05-01-2021",
             "authors": ["ypeng", "jjang", "jbigham", "apavel"],
-            "publisher": "Conditionally accepted to CHI 2021",
-            "tags": ["paper"]
+            "publisher": "CHI 2021",
+            "tags": ["paper"],
+            "link": "https://sayitall.github.io/",
+            "image": "sayitall"
         },
         {
             "name": "Rescribe: Authoring and Automatically Editing Audio Descriptions.",
@@ -73,7 +86,8 @@
             "authors": ["apavel", "greyes", "jbigham"],
             "summary": "(~22% acceptance rate, 10 pages) -- Highlighted in Future of CSCW/UIST Plenary, and UIST Keynote.",
             "publisher": "UIST 2020",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "rescribe"
         },
         {
             "name": "Disability and the COVID-19 Pandemic: Using Twitter to Understand Accessibility during Rapid Societal Transition.",
@@ -91,7 +105,8 @@
             ],
             "summary": "(28% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2020",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "disabilitycovid"
         },
         {
             "name": "Making GIFs Accessible.",
@@ -99,7 +114,8 @@
             "authors": ["cgleason", "apavel", "hgururaj", "kkitani", "jbigham"],
             "summary": "(28% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2020",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "oprah"
         },
         {
             "name": "Making Mobile Augmented Reality Applications Accessible.",
@@ -107,7 +123,8 @@
             "authors": ["jherskovitz", "jwu", "swhite", "apavel", "greyes", "aguo", "jbigham"],
             "summary": "(28% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2020",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "accessiblear"
         },
         {
             "name": "Conversational Agency in Augmentative and Alternative Communication.",
@@ -115,7 +132,8 @@
             "authors": ["svalencia", "apavel", "jsantamaria", "syu", "jbigham", "hadmoni"],
             "summary": "(24.3% acceptance rate, 10 pages) -- Best Paper Honorable Mention",
             "publisher": "CHI 2020",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "aacagency"
         },
         {
             "name": "Twitter A11y: A Browser Extension to Make Twitter Images Accessible.",
@@ -131,7 +149,8 @@
             ],
             "summary": "(24.3% acceptance rate, 10 pages) -- Best Paper Honorable Mention",
             "publisher": "CHI 2020",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "twittera11y"
         },
         {
             "name": "Investigating Evaluation of Open-Domain Dialogue Systems With Human Generated Multiple References.",
@@ -139,7 +158,8 @@
             "authors": ["pgupta", "smehri", "tzhao", "apavel", "meskenazi", "jbigham"],
             "summary": "(10 pages)",
             "publisher": "SIGDIAL 2019",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "multiref"
         },
         {
             "name": "Making Memes Accessible.",
@@ -147,10 +167,11 @@
             "authors": ["cgleason", "apavel", "xliu", "pcarrington", "lchilton", "jbigham"],
             "summary": "(26% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2019",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "memes"
         },
         {
-            "name": "Shot Orientation Controls for Interactive Cinematography with 360 video.",
+            "name": "Saliency in VR: How do people explore virtual environments?",
             "releaseDate": "03-01-2018",
             "authors": [
                 "vsitzmann",
@@ -166,7 +187,8 @@
             },
             "summary": "(22.5% acceptance rate, 9 pages)",
             "publisher": "IEEE VR 2018",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "saliency"
         },
         {
             "name": "Shot Orientation Controls for Interactive Cinematography with 360 video.",
@@ -174,7 +196,8 @@
             "authors": ["apavel", "bhartmann", "magrawala"],
             "summary": "(22.5% acceptance rate, 9 pages)",
             "publisher": "UIST 2017",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "shots"
         },
         {
             "name": "Vidcrit: Video-based Asynchronous Video Review.",
@@ -182,7 +205,8 @@
             "authors": ["apavel", "dgoldman", "bhartmann", "magrawala"],
             "summary": "(20.6% acceptance rate, 12 pages)",
             "publisher": "UIST 2016",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "vidcrit"
         },
         {
             "name": "SceneSkim: Searching and Browsing Movies Using Synchronized Captions, Scripts and Plot Summaries.",
@@ -190,7 +214,8 @@
             "authors": ["apavel", "dgoldman", "bhartmann", "magrawala"],
             "summary": "(23% acceptance rate, 10 pages)",
             "publisher": "UIST 2015",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "sceneskim"
         },
         {
             "name": "Structuring, Aggregating, and Evaluating Crowdsourced Design Critique.",
@@ -207,7 +232,8 @@
             ],
             "summary": "(28.3% acceptance rate, 13 pages)",
             "publisher": "CSCW 2015",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "crowdcrit"
         },
         {
             "name": "Video Digests: A Browsable, Skimmable Format for Informational Lecture Videos.",
@@ -215,14 +241,16 @@
             "authors": ["apavel", "creed", "bhartmann", "magrawala"],
             "summary": "(22.2% acceptance rate, 10 pages)",
             "publisher": "UIST 2014",
-            "tags": ["paper"]
+            "tags": ["paper"],
+            "image": "videodigests"
         },
         {
             "name": "Extracting Structured Data from Doctor-Patient Conversations By Predicting Noteworthy Utterances.",
             "releaseDate": "02-15-2020",
             "authors": ["kkrishna", "apavel", "bschloss", "jbigham", "zlipton"],
             "publisher": "W3PHIAI 2020 Workshop Paper",
-            "tags": ["workshop"]
+            "tags": ["workshop"],
+            "image": "soapnotes"
         },
         {
             "name": "Twitter A11y: A Browser Extension to Make Twitter Images Accessible.",
@@ -241,7 +269,8 @@
             },
             "publisher": "ASSETS 2019",
             "summary": "(Poster)",
-            "tags": ["poster"]
+            "tags": ["poster"],
+            "image": "twittera11yposter"
         },
         {
             "name": "CrowdCrit: Crowdsourcing and Aggregating Visual Design Critique.",
@@ -257,7 +286,8 @@
             ],
             "publisher": "CSCW 2014",
             "summary": "(Extended Abstract)",
-            "tags": ["poster"]
+            "tags": ["poster"],
+            "image": "crowdcrit"
         },
         {
             "name": "Sifter: Analyzing and Exploring Large Collections of Web-Based Image Manipulation Tutorials.",
@@ -265,7 +295,8 @@
             "authors": ["apavel", "fberthouzoz", "bhartmann", "magrawala"],
             "publisher": "TECHCON 2012",
             "summary": "(Poster)",
-            "tags": ["poster"]
+            "tags": ["poster"],
+            "image": "sifter"
         },
         {
             "name": "Controlling Dialogue Generation with Semantic Exemplars.",
@@ -286,15 +317,17 @@
             "releaseDate": "05-17-2019",
             "authors": ["apavel"],
             "publisher": "PhD Thesis (Computer Science, EECS department). UC Berkeley Technical Report, EECS-2019-78.",
-            "summary": "Committee: Professors Bj\\\"{o}rn Hartmann (Berkeley EECS), Maneesh Agrawala (Stanford), Eric Paulos (Berkeley New Media and EECS), and Abigail De Kosnick (Berkeley Department of Theater, Dance and Performance, and New Media).",
-            "tags": ["tech-report"]
+            "summary": "Committee: Professors Björn Hartmann (Berkeley EECS), Maneesh Agrawala (Stanford), Eric Paulos (Berkeley New Media and EECS), and Abigail De Kosnick (Berkeley Department of Theater, Dance and Performance, and New Media).",
+            "tags": ["tech-report"],
+            "image": "thesis"
         },
         {
             "name": "Browsing and Analyzing Command Structure of Large Collections of Image Manipulation Tutorials.",
             "releaseDate": "10-09-2013",
             "authors": ["apavel", "fberthouzoz", "bhartmann", "magrawala"],
             "publisher": "UC Berkeley Technical Report, EECS-2013-167",
-            "tags": ["tech-report"]
+            "tags": ["tech-report"],
+            "image": "sifter"
         }
     ],
     "awards": [

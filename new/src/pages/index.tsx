@@ -1,12 +1,25 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
-import Pub from "../components/Pub";
+import PubComponent from "../components/Pub";
 import { cv } from "../cv";
+import WorkComponent from "../components/Work";
+import TeachingComponent from "../components/Teaching";
+import HighlightComponent from "../components/Highlight";
+import parse from "date-fns/parse";
+
+function sortByDate<T>(items: T[], key: keyof T): T[] {
+  return [...items].sort((a, b) => {
+    const dateA = parse(a[key] as string, "MM-dd-yyyy", new Date());
+    const dateB = parse(b[key] as string, "MM-dd-yyyy", new Date());
+    return dateA.getTime() - dateB.getTime();
+  });
+}
 
 export default function IndexPage({ data }) {
   const aboutHtml = data.about.children[0].html;
   const researchHtml = data.research.children[0].html;
+  const pubs = sortByDate(cv.publications, "releaseDate").reverse();
   return (
     <div className="sm:container sm:mx-auto px-10 md:px-30 lg:px-40 py-10">
       <h1 className="text-4xl py-8">Amy Pavel</h1>
@@ -17,7 +30,7 @@ export default function IndexPage({ data }) {
             alt="Amy Pavel headshot"
             className="w-48 md:w-auto"
           />
-          <div className="prose-sm prose-a:text-blue-600 hover:prose-a:text-blue-500 prose-a:no-underline">
+          <div className="prose-sm">
             <p>
               Email{" "}
               <a href="mailto:apavel@cs.utexas.edu">apavel@cs.utexas.edu</a>
@@ -51,42 +64,90 @@ export default function IndexPage({ data }) {
           </div>
         </div>
         <div className="col-span-3">
-          <div className="prose prose-a:text-blue-600 hover:prose-a:text-blue-500 prose-a:no-underline">
-            <div dangerouslySetInnerHTML={{ __html: aboutHtml }} />
-          </div>
+          <div
+            className="writing"
+            dangerouslySetInnerHTML={{ __html: aboutHtml }}
+          />
           <h2 className="text-2xl py-8">Research Highlights</h2>
-          <h2 className="text-2xl py-8">Research Summary</h2>
-          <div className="prose prose-a:text-blue-600 hover:prose-a:text-blue-500 prose-a:no-underline">
-            <div dangerouslySetInnerHTML={{ __html: researchHtml }} />
+          <div className="container">
+            <div className="grid grid-cols-4 gap-2">
+              <div className="col-span-1">
+                <HighlightComponent
+                  title="Rescribe"
+                  subtitle="UIST 2020"
+                  img={""}
+                >
+                  Some links
+                </HighlightComponent>
+              </div>
+              <div className="col-span-1">
+                <HighlightComponent
+                  title="360° Video"
+                  subtitle="UIST 2017"
+                  img={""}
+                >
+                  Some links
+                </HighlightComponent>
+              </div>
+              <div className="col-span-1">
+                <HighlightComponent
+                  title="SceneSkim"
+                  subtitle="UIST 2015"
+                  img={""}
+                >
+                  Some links
+                </HighlightComponent>
+              </div>
+              <div className="col-span-1">
+                <HighlightComponent
+                  title="Video Digests"
+                  subtitle="UIST 2014"
+                  img={""}
+                >
+                  Some links
+                </HighlightComponent>
+              </div>
+            </div>
           </div>
+          <h2 className="text-2xl py-8">Research Summary</h2>
+          <div
+            className="writing"
+            dangerouslySetInnerHTML={{ __html: researchHtml }}
+          />
           <h2 className="text-2xl py-8">Conference Papers</h2>
           <div className="md:container md:mx-auto">
-            {cv.publications
+            {pubs
               .filter((p) => p.tags.includes("paper"))
               .map((pub) => (
-                <Pub key={pub.name} pub={pub} />
+                <PubComponent key={pub.name} pub={pub} />
               ))}
           </div>
           <h2 className="text-2xl py-8">Thesis and Technical Reports</h2>
           <div className="md:container md:mx-auto">
-            {cv.publications
+            {pubs
               .filter((p) => p.tags.includes("tech-report"))
               .map((pub) => (
-                <Pub key={pub.name} pub={pub} />
+                <PubComponent key={pub.name} pub={pub} />
               ))}
           </div>
           <h2 className="text-2xl py-8">Posters and Workshops</h2>
           <div className="md:container md:mx-auto">
-            {cv.publications
+            {pubs
               .filter(
                 (p) => p.tags.includes("poster") || p.tags.includes("workshop")
               )
               .map((pub) => (
-                <Pub key={pub.name} pub={pub} />
+                <PubComponent key={pub.name} pub={pub} />
               ))}
           </div>
           <h2 className="text-2xl py-8">Work</h2>
+          {cv.work.map((job) => (
+            <WorkComponent key={job.name} work={job} />
+          ))}
           <h2 className="text-2xl py-8">Teaching</h2>
+          {cv.teaching.map((teaching, i) => (
+            <TeachingComponent key={i} teaching={teaching} />
+          ))}
         </div>
       </div>
     </div>

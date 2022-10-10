@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind typography;
+
+@layer base {
+    a {
+        @apply text-blue-600
+    }
+    a:hover {
+        @apply text-blue-800 underline
+    }
+    .writing p {
+        @apply pb-4
+    }
+    .writing {
+        @apply leading-relaxed
+    }
+}

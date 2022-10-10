@@ -38,10 +38,10 @@ const Publication = t.intersection([
     venueFull: t.string,
     summary: t.string,
     link: t.string,
+    image: t.string,
+    content: t.string,
   }),
 ]);
-
-export type Publication = t.TypeOf<typeof Publication>;
 
 const Award = t.intersection([
   t.type({
@@ -111,6 +111,14 @@ const CV = t.type({
 });
 
 export type CV = t.TypeOf<typeof CV>;
+export type Publication = t.TypeOf<typeof Publication>;
+export type Work = t.TypeOf<typeof Work>;
+export type Award = t.TypeOf<typeof Award>;
+export type Volunteer = t.TypeOf<typeof Volunteer>;
+export type Teaching = t.TypeOf<typeof Teaching>;
+export type Mentorship = t.TypeOf<typeof Mentorship>;
+export type Talk = t.TypeOf<typeof Talk>;
+export type Press = t.TypeOf<typeof Press>;
 
 export let cv: CV;
 

@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/new/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/new/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/components/Pub.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/components/Pub.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/content/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/cv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/cv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/data/cv.json" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/data/cv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/gatsby-types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/gatsby-types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -40,15 +49,19 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/srubin/code/amypavel.com",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "prettierjs.PrettierConfiguration.Package": "/Users/srubin/code/amypavel.com/new/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/srubin/code/amypavel.com/new/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/new/src/images/thumbnails" />
+      <recent name="$PROJECT_DIR$/new/src/images" />
+      <recent name="$PROJECT_DIR$/new/src" />
       <recent name="$PROJECT_DIR$/src/files/papers" />
       <recent name="$PROJECT_DIR$/src/files" />
-      <recent name="$PROJECT_DIR$/out/documents" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606879506159</updated>
-      <workItem from="1664658545274" duration="12441000" />
+      <workItem from="1664658545274" duration="13113000" />
+      <workItem from="1665252279531" duration="8706000" />
     </task>
     <servers />
   </component>
