@@ -1,25 +1,48 @@
 {
   "name": "amypavel.com",
   "version": "1.0.0",
-  "engines": {
-    "node": "14.5.0",
-    "yarn": "1.22.10"
-  },
+  "private": true,
+  "description": "amypavel.com",
+  "author": "Amy Pavel, Steve Rubin",
   "scripts": {
-    "build": "docpad generate --env=static,deploy",
-    "deploy": "yarn build && s3cmd sync out/ s3://amypavel.com/",
-    "start": "docpad run"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "npm run build && s3cmd sync public/ s3://amypavel.com/"
   },
   "dependencies": {
-    "docpad": "~6.78.1",
-    "docpad-plugin-coffeescript": "~2.5.0",
-    "docpad-plugin-eco": "~2.1.0",
-    "docpad-plugin-highlightjs": "~2.3.0",
-    "docpad-plugin-less": "~2.4.1",
-    "docpad-plugin-marked": "~2.3.0",
-    "docpad-plugin-partials": "~2.9.2",
-    "docpad-plugin-stylus": "~2.9.0",
-    "docpad-plugin-text": "~2.3.3"
+    "@heroicons/react": "^2.0.12",
+    "@mdx-js/react": "^2.1.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "date-fns": "^2.29.3",
+    "fp-ts": "^2.12.3",
+    "gatsby": "^4.24.0",
+    "gatsby-plugin-google-analytics": "^4.24.0",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-mdx": "^4.3.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-transformer-json": "^4.24.0",
+    "gatsby-transformer-remark": "^5.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "io-ts": "^2.2.18",
+    "io-ts-reporters": "^2.0.1",
+    "prettier": "^2.7.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-markdown": "^8.0.3"
   },
-  "main": "node_modules/docpad/bin/docpad-server"
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.12",
+    "gatsby-plugin-postcss": "^5.24.0",
+    "postcss": "^8.4.17",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.3"
+  }
 }

@@ -3,4 +3,5 @@ node_modules
 out
 yarn-error.log
 .cache
-new/public
+public
+
