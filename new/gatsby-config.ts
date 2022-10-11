@@ -53,7 +53,6 @@ const config: GatsbyConfig = {
     },
     "gatsby-transformer-remark",
     "gatsby-transformer-json",
-    // "gatsby-plugin-mdx-source-name",
     "gatsby-plugin-postcss",
   ],
 };

@@ -240,10 +240,12 @@ type DataJsonFieldsEnum =
   | 'publications.authors'
   | 'publications.content'
   | 'publications.image'
+  | 'publications.imageAlt'
   | 'publications.link'
   | 'publications.name'
   | 'publications.publisher'
   | 'publications.releaseDate'
+  | 'publications.shortName'
   | 'publications.summary'
   | 'publications.tags'
   | 'talks'
@@ -254,6 +256,8 @@ type DataJsonFieldsEnum =
   | 'teaching'
   | 'teaching.course'
   | 'teaching.endDate'
+  | 'teaching.institution'
+  | 'teaching.link'
   | 'teaching.position'
   | 'teaching.startDate'
   | 'teaching.summary'
@@ -381,10 +385,12 @@ type DataJsonPublications = {
   readonly authors: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly content: Maybe<Scalars['String']>;
   readonly image: Maybe<Scalars['String']>;
+  readonly imageAlt: Maybe<Scalars['String']>;
   readonly link: Maybe<Scalars['String']>;
   readonly name: Maybe<Scalars['String']>;
   readonly publisher: Maybe<Scalars['String']>;
   readonly releaseDate: Maybe<Scalars['String']>;
+  readonly shortName: Maybe<Scalars['String']>;
   readonly summary: Maybe<Scalars['String']>;
   readonly tags: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
 };
@@ -402,10 +408,12 @@ type DataJsonPublicationsFilterInput = {
   readonly authors: InputMaybe<StringQueryOperatorInput>;
   readonly content: InputMaybe<StringQueryOperatorInput>;
   readonly image: InputMaybe<StringQueryOperatorInput>;
+  readonly imageAlt: InputMaybe<StringQueryOperatorInput>;
   readonly link: InputMaybe<StringQueryOperatorInput>;
   readonly name: InputMaybe<StringQueryOperatorInput>;
   readonly publisher: InputMaybe<StringQueryOperatorInput>;
   readonly releaseDate: InputMaybe<StringQueryOperatorInput>;
+  readonly shortName: InputMaybe<StringQueryOperatorInput>;
   readonly summary: InputMaybe<StringQueryOperatorInput>;
   readonly tags: InputMaybe<StringQueryOperatorInput>;
 };
@@ -440,6 +448,8 @@ type DataJsonTalksFilterListInput = {
 type DataJsonTeaching = {
   readonly course: Maybe<Scalars['String']>;
   readonly endDate: Maybe<Scalars['Date']>;
+  readonly institution: Maybe<Scalars['String']>;
+  readonly link: Maybe<Scalars['String']>;
   readonly position: Maybe<Scalars['String']>;
   readonly startDate: Maybe<Scalars['String']>;
   readonly summary: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
@@ -456,6 +466,8 @@ type DataJsonTeaching_endDateArgs = {
 type DataJsonTeachingFilterInput = {
   readonly course: InputMaybe<StringQueryOperatorInput>;
   readonly endDate: InputMaybe<DateQueryOperatorInput>;
+  readonly institution: InputMaybe<StringQueryOperatorInput>;
+  readonly link: InputMaybe<StringQueryOperatorInput>;
   readonly position: InputMaybe<StringQueryOperatorInput>;
   readonly startDate: InputMaybe<StringQueryOperatorInput>;
   readonly summary: InputMaybe<StringQueryOperatorInput>;
@@ -1119,10 +1131,12 @@ type FileFieldsEnum =
   | 'childDataJson.publications.authors'
   | 'childDataJson.publications.content'
   | 'childDataJson.publications.image'
+  | 'childDataJson.publications.imageAlt'
   | 'childDataJson.publications.link'
   | 'childDataJson.publications.name'
   | 'childDataJson.publications.publisher'
   | 'childDataJson.publications.releaseDate'
+  | 'childDataJson.publications.shortName'
   | 'childDataJson.publications.summary'
   | 'childDataJson.publications.tags'
   | 'childDataJson.talks'
@@ -1133,6 +1147,8 @@ type FileFieldsEnum =
   | 'childDataJson.teaching'
   | 'childDataJson.teaching.course'
   | 'childDataJson.teaching.endDate'
+  | 'childDataJson.teaching.institution'
+  | 'childDataJson.teaching.link'
   | 'childDataJson.teaching.position'
   | 'childDataJson.teaching.startDate'
   | 'childDataJson.teaching.summary'
@@ -1387,10 +1403,12 @@ type FileFieldsEnum =
   | 'childrenDataJson.publications.authors'
   | 'childrenDataJson.publications.content'
   | 'childrenDataJson.publications.image'
+  | 'childrenDataJson.publications.imageAlt'
   | 'childrenDataJson.publications.link'
   | 'childrenDataJson.publications.name'
   | 'childrenDataJson.publications.publisher'
   | 'childrenDataJson.publications.releaseDate'
+  | 'childrenDataJson.publications.shortName'
   | 'childrenDataJson.publications.summary'
   | 'childrenDataJson.publications.tags'
   | 'childrenDataJson.talks'
@@ -1401,6 +1419,8 @@ type FileFieldsEnum =
   | 'childrenDataJson.teaching'
   | 'childrenDataJson.teaching.course'
   | 'childrenDataJson.teaching.endDate'
+  | 'childrenDataJson.teaching.institution'
+  | 'childrenDataJson.teaching.link'
   | 'childrenDataJson.teaching.position'
   | 'childrenDataJson.teaching.startDate'
   | 'childrenDataJson.teaching.summary'

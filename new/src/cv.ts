@@ -31,6 +31,7 @@ const Publication = t.intersection([
         preprint: null,
         workshop: null,
         "tech-report": null,
+        highlight: null,
       })
     ),
   }),
@@ -39,7 +40,9 @@ const Publication = t.intersection([
     summary: t.string,
     link: t.string,
     image: t.string,
+    imageAlt: t.string,
     content: t.string,
+    shortName: t.string, // name used for highlights
   }),
 ]);
 
@@ -71,8 +74,10 @@ const Teaching = t.intersection([
     position: t.string,
     course: t.string,
     summary: t.array(t.string),
+    institution: t.string,
   }),
   t.partial({
+    link: t.string,
     startDate: t.string,
     endDate: t.string,
   }),

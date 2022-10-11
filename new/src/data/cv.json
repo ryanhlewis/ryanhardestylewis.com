@@ -61,6 +61,7 @@
             "tags": ["paper"],
             "link": "https://dl.acm.org/doi/10.1145/3434073.3444646",
             "image": "codesigning",
+            "imageAlt": "A photograph taken at a workshop with a person using an AAC device, her close conversational partner, and puppeteers. All participants stand around a table full of craft supplies and are engaged in coversation.",
             "content": "[PDF](papers/codesigning.pdf)"
         },
         {
@@ -69,16 +70,21 @@
             "authors": ["xliu", "pcarrington", "xchen", "apavel"],
             "publisher": "CHI 2021",
             "tags": ["paper"],
-            "image": "videosearch"
+            "link": "https://dl.acm.org/doi/10.1145/3411764.3445233",
+            "image": "videosearch",
+            "imageAlt": "A YouTube search result augmented with accessibility information. A thumbnail of the video shows a woman in Rome. The rest of the video information reads as follows: Rome, Italy! Tips & Photo Spots by Ruby Keyvani. 5/7 Somewhat Accessible. 76% of the video is speech. The speech is descriptive but contains many visual references (3 per minute). Visual changes occur infrequently (5 shots per minute); few on-screen objects are described (20%).",
+            "content": "[PDF][1] | [30s Video][2] | [Presentation (5 min)][3]\n\n[1]: papers/videosearch.pdf\n[2]: https://www.youtube.com/watch?v=dNubi_koIsc\n[3]: https://www.youtube.com/watch?v=n2enrJJZdTs"
         },
         {
-            "name": "Say it all: Authoring Non-Visually Accessible Presentations.",
+            "name": "Say It All: Feedback for Improving Non-Visual Presentation Accessibility",
             "releaseDate": "05-01-2021",
             "authors": ["ypeng", "jjang", "jbigham", "apavel"],
             "publisher": "CHI 2021",
             "tags": ["paper"],
             "link": "https://sayitall.github.io/",
-            "image": "sayitall"
+            "image": "sayitall",
+            "imageAlt": "A slide from a lecture where most text is in black but some of the text has been colored green to represent that it has been spoken by the presenter. There is an image with a squiggly circle brush on the slide, and it has a green border to indicate the presenter described the image.",
+            "content": "[PDF][1] | [30s Video][2] | [Presentation (5 min)][3] | [Presentation Transcript][4]\n\n[1]: papers/sayitall.pdf\n[2]: https://www.youtube.com/watch?v=tBaSqMYP4yI\n[3]: https://www.youtube.com/watch?v=AvXBiZ3C3yY\n[4]: https://sayitall.github.io/slides/"
         },
         {
             "name": "Rescribe: Authoring and Automatically Editing Audio Descriptions.",
@@ -86,8 +92,12 @@
             "authors": ["apavel", "greyes", "jbigham"],
             "summary": "(~22% acceptance rate, 10 pages) -- Highlighted in Future of CSCW/UIST Plenary, and UIST Keynote.",
             "publisher": "UIST 2020",
-            "tags": ["paper"],
-            "image": "rescribe"
+            "tags": ["paper", "highlight"],
+            "shortName": "Rescribe",
+            "link": "https://dl.acm.org/doi/10.1145/3379337.3415864",
+            "image": "rescribe",
+            "imageAlt": "On one side, a set of extended audio description sentences with their corresponding frames, and in the other column a set of inline audio description sentences and the same frames. The shortened descriptions are as follows: `Shots of lavender in a farmers market' is shortened to `Shots of lavender', `Red flowers against a white house and blue sky' is shortened to `Red flowers', `a courtyard and a pool' is not shortened, `Gaby bikes along a path' is shortened to `Close up of french fries', and `Close up of tater tots and french fries' is shortened to `Close up of french fries'",
+            "content": "[PDF][1] | [Video][2] | [Talk][3]\n\n[1]: papers/rescribe.pdf\n[2]: https://youtu.be/LwVCFN4vytc\n[3]: https://www.youtube.com/watch?v=jmyPmT5T0PY\n[4]: https://videodigests.com/view/Ewo_1arJq/Rescribe-Authoring-and-Automatically-Editing-Audio-Descriptions-15-Minute-Presentation\n"
         },
         {
             "name": "Disability and the COVID-19 Pandemic: Using Twitter to Understand Accessibility during Rapid Societal Transition.",
@@ -106,7 +116,10 @@
             "summary": "(28% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2020",
             "tags": ["paper"],
-            "image": "disabilitycovid"
+            "link": "https://dl.acm.org/doi/10.1145/3373625.3417023",
+            "image": "disabilitycovid",
+            "imageAlt": "Screenshot of a tweet by @CDCgov from April 1, 2020 3:55pm: Actions to reduce spread of the virus, such as social distancing, are key to #FlattenTheCurve. 2 of 3 (original tweet link: https://twitter.com/CDCgov/status/1245439600472084486) The tweet contains an image of the common public health infographic about “flattening the curve”, but the tweet did not include alt text for the image. The image shows an example of a common flatten the curve info-graphic. A tall peak indicates the height of the pandemic if left unchecked, and a shorter spread out curve depicts the effects of social distancing efforts.",
+            "content": "[PDF](papers/disabilitycovid.pdf)\n"
         },
         {
             "name": "Making GIFs Accessible.",
@@ -115,7 +128,10 @@
             "summary": "(28% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2020",
             "tags": ["paper"],
-            "image": "oprah"
+            "link": "https://dl.acm.org/doi/10.1145/3373625.3417027",
+            "image": "oprah",
+            "imageAlt": "A cartoon stylized version of a popular reaction GIF of Oprah Winfrey shrugging. She turns to look to the camera, glances to the side, stares at the camera, then shrugs with her palms up.",
+            "content": "[Paper][1] | [Link to Thumbnail GIF][2]\n\n[1]: https://dl.acm.org/doi/10.1145/3373625.3417027\n[2]: https://media.giphy.com/media/5Sztylo25gCVnBOWjq/giphy.gif\n"
         },
         {
             "name": "Making Mobile Augmented Reality Applications Accessible.",
@@ -124,7 +140,10 @@
             "summary": "(28% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2020",
             "tags": ["paper"],
-            "image": "accessiblear"
+            "link": "https://dl.acm.org/doi/10.1145/3373625.3417006",
+            "image": "accessiblear",
+            "imageAlt": "Two example prototypes for making AR apps accessible. A: Foundational Accessibility. Screenshot of a virtual chair with a voice over target around it, a speech bubble shows the app announcing 'Back of chair with blue cushion'. B: Scanning. Screenshot of AR grid overlaid on a coffee table. Speech bubbles show the app announcing 'Found a new horizontal surface' and 'Scanned 2 surfaces totaling 2.3 square meters'.",
+            "content": "[PDF][1] | [Video][2]\n\n[1]: papers/accessiblear.pdf\n[2]: https://www.youtube.com/watch?v=AxKKGoD3TZk\n"
         },
         {
             "name": "Conversational Agency in Augmentative and Alternative Communication.",
@@ -133,7 +152,10 @@
             "summary": "(24.3% acceptance rate, 10 pages) -- Best Paper Honorable Mention",
             "publisher": "CHI 2020",
             "tags": ["paper"],
-            "image": "aacagency"
+            "link": "https://dl.acm.org/doi/10.1145/3313831.3376376",
+            "image": "aacagency",
+            "imageAlt": "A thumbnail with a conversation between a person using an AAC device and two other people.",
+            "content": "[PDF][1] \n\n[1]: papers/aacagency.pdf\n"
         },
         {
             "name": "Twitter A11y: A Browser Extension to Make Twitter Images Accessible.",
@@ -150,7 +172,10 @@
             "summary": "(24.3% acceptance rate, 10 pages) -- Best Paper Honorable Mention",
             "publisher": "CHI 2020",
             "tags": ["paper"],
-            "image": "twittera11y"
+            "link": "https://dl.acm.org/doi/10.1145/3313831.3376728",
+            "image": "twittera11y",
+            "imageAlt": "A thumbnail with illegible examples of tweet images and their corresponding alt text.",
+            "content": "[PDF][1] \n\n[1]: papers/twittera11y.pdf\n"
         },
         {
             "name": "Investigating Evaluation of Open-Domain Dialogue Systems With Human Generated Multiple References.",
@@ -159,7 +184,10 @@
             "summary": "(10 pages)",
             "publisher": "SIGDIAL 2019",
             "tags": ["paper"],
-            "image": "multiref"
+            "link": "https://arxiv.org/abs/1907.10568",
+            "image": "multiref",
+            "imageAlt": "A thumbnail of a paper figure showing three memes with descriptions.",
+            "content": "[PDF][1] | [Code][2] \n\n[1]: papers/multiref.pdf\n[2]: https://github.com/prakharguptaz/multirefeval\n"
         },
         {
             "name": "Making Memes Accessible.",
@@ -168,7 +196,10 @@
             "summary": "(26% acceptance rate, 10 pages)",
             "publisher": "ASSETS 2019",
             "tags": ["paper"],
-            "image": "memes"
+            "link": "https://dl.acm.org/doi/10.1145/3308561.3353792",
+            "image": "memes",
+            "imageAlt": "A thumbnail of a paper figure showing three memes with descriptions.",
+            "content": "[PDF][1] | [Time article][2]\n\n[1]: papers/memes.pdf\n[2]: https://time.com/5759721/meme-accessibility-blind/\n"
         },
         {
             "name": "Saliency in VR: How do people explore virtual environments?",
@@ -188,7 +219,10 @@
             "summary": "(22.5% acceptance rate, 9 pages)",
             "publisher": "IEEE VR 2018",
             "tags": ["paper"],
-            "image": "saliency"
+            "link": "https://vsitzmann.github.io/vr-saliency/",
+            "image": "saliency",
+            "imageAlt": "A thumbnail of a paper figure including nine images with heat maps indicating visual saliency in VR.",
+            "content": "[Project Page][1] | [Code][code] | [Video][2]\n\n[1]: https://vsitzmann.github.io/vr-saliency/\n[2]: https://www.youtube.com/watch?v=c0wW1EiAvlk\n[code]: https://github.com/vsitzmann/vr-saliency\n"
         },
         {
             "name": "Shot Orientation Controls for Interactive Cinematography with 360 video.",
@@ -196,8 +230,12 @@
             "authors": ["apavel", "bhartmann", "magrawala"],
             "summary": "(22.5% acceptance rate, 9 pages)",
             "publisher": "UIST 2017",
-            "tags": ["paper"],
-            "image": "shots"
+            "tags": ["paper", "highlight"],
+            "shortName": "360° Video",
+            "link": "https://aksp.github.io/interactive360video/",
+            "image": "shots",
+            "imageAlt": "A thumbnail of a paper figure indicating three different editing techniques for 360 video: traditional, viewpoint-oriented cuts and active reorientation.",
+            "content": "[PDF][1] | [Code][code] | [Video][2]\n\n[1]: https://aksp.github.io/interactive360video/paper-small.pdf\n[2]: https://www.youtube.com/watch?v=nGXe9qT19t8\n[demo]: https://people.eecs.berkeley.edu/~amypavel/interactivevrview/examples/interactivevideo/interface-demo.html\n[code]: https://github.com/aksp/interactivevrview\n"
         },
         {
             "name": "Vidcrit: Video-based Asynchronous Video Review.",
@@ -206,7 +244,10 @@
             "summary": "(20.6% acceptance rate, 12 pages)",
             "publisher": "UIST 2016",
             "tags": ["paper"],
-            "image": "vidcrit"
+            "link": "http://vis.berkeley.edu/papers/vidcrit/",
+            "image": "vidcrit",
+            "imageAlt": "A thumbnail of the VidCrit interface with a video on the left and text critiques of the video on the right.",
+            "content": "[PDF][1] | [Video][2]\n\n[1]: papers/vidcrit.pdf\n[2]: https://youtu.be/Pp-jDTbzi_4"
         },
         {
             "name": "SceneSkim: Searching and Browsing Movies Using Synchronized Captions, Scripts and Plot Summaries.",
@@ -214,8 +255,12 @@
             "authors": ["apavel", "dgoldman", "bhartmann", "magrawala"],
             "summary": "(23% acceptance rate, 10 pages)",
             "publisher": "UIST 2015",
-            "tags": ["paper"],
-            "image": "sceneskim"
+            "tags": ["paper", "highlight"],
+            "shortName": "SceneSkim",
+            "link": "http://vis.berkeley.edu/papers/sceneskim/",
+            "image": "sceneskim",
+            "imageAlt": "",
+            "content": "[PDF][1] | [Video][2]\n\n[1]: http://vis.berkeley.edu/papers/sceneskim/sceneskim.pdf\n[2]: https://youtu.be/umvD6TGwciE\n"
         },
         {
             "name": "Structuring, Aggregating, and Evaluating Crowdsourced Design Critique.",
@@ -233,7 +278,9 @@
             "summary": "(28.3% acceptance rate, 13 pages)",
             "publisher": "CSCW 2015",
             "tags": ["paper"],
-            "image": "crowdcrit"
+            "link": "http://vis.berkeley.edu/papers/crowdcrit/",
+            "image": "crowdcrit",
+            "imageAlt": "A thumbnail indicating an overview of the CrowdCrit critique process."
         },
         {
             "name": "Video Digests: A Browsable, Skimmable Format for Informational Lecture Videos.",
@@ -241,8 +288,12 @@
             "authors": ["apavel", "creed", "bhartmann", "magrawala"],
             "summary": "(22.2% acceptance rate, 10 pages)",
             "publisher": "UIST 2014",
-            "tags": ["paper"],
-            "image": "videodigests"
+            "tags": ["paper", "highlight"],
+            "shortName": "Video Digests",
+            "link": "http://vis.berkeley.edu/papers/videodigests/",
+            "image": "videodigests",
+            "imageAlt": "A thumbnail of the Video Digests interface. Video thumbnails displayed alongside short summaries of the video content.",
+            "content": "[PDF][1] | [Code][3]\n\n[1]: http://vis.berkeley.edu/papers/videodigests/videodigests_small.pdf\n[2]: https://videodigests.com\n[3]: https://github.com/ucbvislab/vdigests\n"
         },
         {
             "name": "Extracting Structured Data from Doctor-Patient Conversations By Predicting Noteworthy Utterances.",
@@ -250,7 +301,9 @@
             "authors": ["kkrishna", "apavel", "bschloss", "jbigham", "zlipton"],
             "publisher": "W3PHIAI 2020 Workshop Paper",
             "tags": ["workshop"],
-            "image": "soapnotes"
+            "link": "https://arxiv.org/abs/2007.07151",
+            "image": "soapnotes",
+            "imageAlt": "A thumbnail showing a line graph of the precision-at-one of an algorithm going up as the number of noteworthy sentences considered rises. After a certain point, the number of noteworthy sentences decreases the precision at one -- indicating that lower quality noteworthy sentences add noise rather than value to the prediction."
         },
         {
             "name": "Twitter A11y: A Browser Extension to Make Twitter Images Accessible.",
@@ -270,7 +323,9 @@
             "publisher": "ASSETS 2019",
             "summary": "(Poster)",
             "tags": ["poster"],
-            "image": "twittera11yposter"
+            "link": "https://dl.acm.org/doi/10.1145/3308561.3354629",
+            "image": "twittera11yposter",
+            "imageAlt": "A thumbnail with an illegible system diagram of Twitter A11y."
         },
         {
             "name": "CrowdCrit: Crowdsourcing and Aggregating Visual Design Critique.",
@@ -287,7 +342,9 @@
             "publisher": "CSCW 2014",
             "summary": "(Extended Abstract)",
             "tags": ["poster"],
-            "image": "crowdcrit"
+            "link": "https://dl.acm.org/doi/10.1145/2556420.2556788",
+            "image": "crowdcrit",
+            "imageAlt": "A thumbnail indicating an overview of the CrowdCrit critique process."
         },
         {
             "name": "Sifter: Analyzing and Exploring Large Collections of Web-Based Image Manipulation Tutorials.",
@@ -296,7 +353,9 @@
             "publisher": "TECHCON 2012",
             "summary": "(Poster)",
             "tags": ["poster"],
-            "image": "sifter"
+            "link": "http://vis.berkeley.edu/papers/sifter/",
+            "image": "sifter",
+            "imageAlt": "A thumbnail of the Sifter interface for browsing common sets of image editing commands."
         },
         {
             "name": "Controlling Dialogue Generation with Semantic Exemplars.",
@@ -313,13 +372,15 @@
             "tags": ["preprint"]
         },
         {
-            "name": "Text-based Video Navigation.",
+            "name": "Navigating Video Using Structured Text",
             "releaseDate": "05-17-2019",
             "authors": ["apavel"],
-            "publisher": "PhD Thesis (Computer Science, EECS department). UC Berkeley Technical Report, EECS-2019-78.",
+            "publisher": "PhD in Computer Science, University of California, Berkeley",
+            "link": "https://escholarship.org/uc/item/94x1w5r1",
             "summary": "Committee: Professors Björn Hartmann (Berkeley EECS), Maneesh Agrawala (Stanford), Eric Paulos (Berkeley New Media and EECS), and Abigail De Kosnick (Berkeley Department of Theater, Dance and Performance, and New Media).",
             "tags": ["tech-report"],
-            "image": "thesis"
+            "image": "thesis",
+            "content": "Advisors: Bjoern Hartmann and Maneesh Agrawala\n\nAdditional committee members: Eric Paulos, Abigail De Kosnik\n"
         },
         {
             "name": "Browsing and Analyzing Command Structure of Large Collections of Image Manipulation Tutorials.",
@@ -327,6 +388,7 @@
             "authors": ["apavel", "fberthouzoz", "bhartmann", "magrawala"],
             "publisher": "UC Berkeley Technical Report, EECS-2013-167",
             "tags": ["tech-report"],
+            "link": "http://vis.berkeley.edu/papers/sifter/",
             "image": "sifter"
         }
     ],
@@ -481,18 +543,28 @@
     "teaching": [
         {
             "position": "Instructor",
-            "course": "UC Berkeley EECS, CS 160",
+            "institution": "UT Austin",
+            "course": "CS 378: Introduction to Human-Computer Interaction",
+            "link": "https://amypavel.com/teaching/cs378sp22/",
+            "summary": [],
+            "startDate": "Spring 2022"
+        },
+        {
+            "position": "Instructor",
+            "institution": "UC Berkeley",
+            "course": "CS 160: User interface design and development",
+            "link": "https://amypavel.com/teaching/cs160su18/",
             "summary": [
-                "CS 160: User interface design and development, 77 students",
+                "77 students",
                 "Course staff of 5 TAs and 2 Readers",
-                "Course website: \\href{https://amypavel.com/teaching/cs160su18/}{\\tt amypavel.com/teaching/cs160su18/}",
                 "Ratings: \\href{https://hkn.eecs.berkeley.edu/coursesurveys/course/CS/160}{\\tt hkn.eecs.berkeley.edu/coursesurveys/course/CS/160}"
             ],
             "startDate": "Summer 2018"
         },
         {
             "position": "Graduate student instructor",
-            "course": "UC Berkeley EECS, CS 160",
+            "course": "CS 160: User interface design and development",
+            "institution": "UC Berkeley",
             "summary": [
                 "CS 160: User interface design and development, taught by Cesar Torres",
                 "Served as the only GSI for the course of 60 students."
@@ -501,16 +573,19 @@
         },
         {
             "position": "Student project advisor",
-            "course": "UC Berkeley New Media, NWMEDIA 190",
+            "course": "NWMEDIA 190: Making Sense of Cultural Data",
+            "institution": "UC Berkeley",
+            "link": "https://classes.berkeley.edu/content/2017-fall-nwmedia-190-001-lec-001",
             "summary": [
-                "NWMEDIA 190: Making Sense of Cultural Data",
                 "Served as a “Data Science Pro” for the class by guiding and providing feedback on student projects throughout the semester."
             ],
-            "startDate": "Fall 2016"
+            "startDate": "Fall 2017"
         },
         {
             "position": "Instructor",
-            "course": "ASUC Berkeley, CS Kickstart",
+            "course": "CS Kickstart, intro CS for incoming freshmen women",
+            "institution": "UC Berkeley",
+            "link": "https://cs-kickstart.berkeley.edu/",
             "summary": [
                 "Designed and co-taught CS curriculum to incoming freshmen women interested in pursuing an EECS degree."
             ],
@@ -519,6 +594,7 @@
         {
             "position": "Teacher",
             "course": "Berkeley Engineers and Mentors",
+            "institution": "UC Berkeley",
             "summary": [
                 "Co-taught hands-on science and engineering curriculum for 4th and 5th grade students at LeConte Elementary School (Berkeley area)"
             ],

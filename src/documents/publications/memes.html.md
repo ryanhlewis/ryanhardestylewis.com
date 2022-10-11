@@ -1,5 +1,5 @@
 ---
-title: "Making Memes Accessible"
+title: "https://dl.acm.org/doi/10.1145/3308561.3353792"
 write: false
 thumbnail: "img/thumbnails/memes.png"
 thumbnailalt: "A thumbnail of a paper figure showing three memes with descriptions."

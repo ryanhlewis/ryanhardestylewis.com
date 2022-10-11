@@ -1,21 +1,28 @@
 import React from "react";
 import { PropsWithChildren } from "react";
+import PubImage from "./PubImage";
 
 export default function HighlightComponent({
   title,
   subtitle,
-  img,
+  imageName,
+  imageAlt,
   children,
 }: PropsWithChildren<{
   title: string;
   subtitle: string;
-  img: string;
+  imageName: string | undefined;
+  imageAlt: string | undefined;
 }>) {
   return (
-    <div className="border-2 p-3">
-      <h2 className="text-l font-bold">{title}</h2>
-      <h3 className="text-m italic">{subtitle}</h3>
-      <img src={img} />
+    <div className="p-3" style={{ border: "1px solid #ccc" }}>
+      <h2 className="text-lg font-medium mb-2">{title}</h2>
+      <h3 className="italic mb-2">{subtitle}</h3>
+      {imageName && (
+        <div className="mb-2">
+          <PubImage imageName={imageName} alt={imageAlt} />
+        </div>
+      )}
       {children}
     </div>
   );
