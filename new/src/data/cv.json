@@ -54,6 +54,72 @@
     ],
     "publications": [
         {
+            "name": "Diffscriber: Describing Visual Design Changes to Support Mixed-Ability Collaborative Presentation Authoring",
+            "releaseDate": "10-31-2022",
+            "authors": ["ypeng", "jwu", "jbigham","apavel"],
+            "publisher": "UIST 2022",
+            "tags": ["paper"],
+            "link": "",
+            "image": "diffscriber",
+            "imageAlt": "",
+            "content": "[PDF](papers/diffscriber.pdf)"
+        },
+        {
+            "name": "CrossA11y: Identifying Video Accessibility Issues via Cross-modal Grounding",
+            "releaseDate": "10-31-2022",
+            "authors": ["xliu", "rwang", "dli","xchen","apavel"],
+            "publisher": "UIST 2022",
+            "tags": ["paper"],
+            "link": "",
+            "image": "crossa11y",
+            "imageAlt": "",
+            "content": "[PDF](papers/crossa11y.pdf)"
+        },
+        {
+            "name": "Tech Help Desk: Support for Local Entrepreneurs Addressing the Long Tail of Computing Challenges",
+            "releaseDate": "04-27-2022",
+            "authors": ["ykotturi", "hjohnson", "mskirpan","sfox","jbigham","apavel"],
+            "publisher": "CHI 2022",
+            "tags": ["paper"],
+            "link": "",
+            "image": "techhelpdesk",
+            "imageAlt": "",
+            "content": "[PDF](papers/techhelpdesk.pdf)"
+        },
+        {
+            "name": "Toward supporting quality alt text in computing publications",
+            "releaseDate": "04-25-2022",
+            "authors": ["cwilliams", "ldegreef", "eharris","apavel","cbennett"],
+            "publisher": "SUI 2022",
+            "tags": ["paper"],
+            "link": "",
+            "image": "towardsalttext",
+            "imageAlt": "",
+            "content": "[PDF](papers/towardsalttext.pdf)"
+        },
+        {
+            "name": "TutorialLens: authoring Interactive augmented reality tutorials through narration and demonstration",
+            "releaseDate": "11-09-2021",
+            "authors": ["jkong", "dsabha", "jbigham","apavel","aguo"],
+            "publisher": "SUI 2021",
+            "tags": ["paper"],
+            "link": "",
+            "image": "tutoriallens",
+            "imageAlt": "",
+            "content": "[PDF](papers/tutoriallens.pdf)"
+        },
+        {
+            "name": "Slidecho: Flexible Non-Visual Exploration of Presentation Videos",
+            "releaseDate": "10-10-2021",
+            "authors": ["ypeng", "jbigham", "apavel"],
+            "publisher": "ASSETS 2021",
+            "tags": ["paper"],
+            "link": "",
+            "image": "slidecho",
+            "imageAlt": "",
+            "content": "[PDF](papers/slidecho.pdf)"
+        },
+        {
             "name": "Co-designing Socially Assistive Sidekicks for Motion-based AAC",
             "releaseDate": "03-29-2021",
             "authors": ["svalencia", "mluria", "apavel", "jbigham", "hadmoni"],

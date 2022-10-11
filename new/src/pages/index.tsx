@@ -37,6 +37,12 @@ export default function IndexPage({ data }) {
               <a href="mailto:apavel@cs.utexas.edu">apavel@cs.utexas.edu</a>
             </p>
             <p>
+              Office{" "}
+              <a href="https://utdirect.utexas.edu/apps/campus/buildings/nlogon/maps/utm/gdc/">
+                GDC 3.704
+              </a>
+            </p>
+            <p>
               Twitter <a href="https://twitter.com/amypavel">@amypavel</a>
             </p>
             <p>

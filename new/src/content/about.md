@@ -1,4 +1,4 @@
-I am an Assistant Professor in the Department of Computer Science at The University of Texas at Austin. If you are a prospective graduate student or postdoc, please get in touch! 
+I am an Assistant Professor in the Department of Computer Science at The University of Texas at Austin. **I am recruiting Ph.D. students for Fall 2023.** If you are a prospective graduate student or postdoc, please feel free to get in touch! 
 
 Previously, I was a postdoctoral fellow at [Carnegie Mellon University][cmu] (supervised by [Jeff Bigham][jeff]) and a Research Scientist at [Apple][apple]. I received my PhD from the department of [Electrical Engineering and Computer Science][eecs] at [UC Berkeley][berkeley]. I was advised by professors [Björn Hartmann][bjoern] at UC Berkeley and [Maneesh Agrawala][maneesh] at Stanford, and my doctoral work was supported by an [NDSEG fellowship][NDSEG]. I've previously been supported by a department EECS Excellence Award and a Sandisk Gold Fellowship.
 

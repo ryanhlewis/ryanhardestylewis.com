@@ -6,8 +6,7 @@
     },
     {
         "id": "apavel",
-        "name": "Amy Pavel",
-        "link": null
+        "name": "Amy Pavel"
     },
     {
         "id": "aserrano",
@@ -55,6 +54,11 @@
         "link": "https://people.eecs.berkeley.edu/~cjrd/"
     },
     {
+        "id": "cwilliams",
+        "name": "Candace Williams",
+        "link": ""
+    },
+    {
         "id": "dgoldman",
         "name": "Dan B Goldman",
         "link": "https://www.danbgoldman.com/home/"
@@ -65,9 +69,23 @@
         "link": "http://giga.cps.unizar.es/~diegog/"
     },
     {
+        "id": "dli",
+        "name": "Dingzeyu Li",
+        "link": "https://dingzeyu.li/"
+    },
+    {
+        "id": "dsabha",
+        "name": "Dena Sabha",
+        "link": "https://www.denasabha.com/"
+    },
+    {
         "id": "ecarter",
         "name": "Elizabeth J. Carter",
         "link": "https://www.lizcarter.net/"
+    },
+    {
+        "id": "eharris",
+        "name": "Ed Harris III"
     },
     {
         "id": "emccamey",
@@ -100,6 +118,10 @@
         "link": "https://www.linkedin.com/in/himalini-gururaj/"
     },
     {
+        "id": "hjohnson",
+        "name": "Herman T Johnson"
+    },
+    {
         "id": "jbigham",
         "name": "Jeffrey P. Bigham",
         "link": "https://www.cs.cmu.edu/~jbigham/"
@@ -111,8 +133,12 @@
     },
     {
         "id": "jjang",
-        "name": "JiWoong Jang",
-        "link": null
+        "name": "JiWoong Jang"
+    },
+    {
+        "id": "jkong",
+        "name": "Junhan Kong",
+        "link": "https://junhankong.com/"
     },
     {
         "id": "jsantamaria",
@@ -121,8 +147,7 @@
     },
     {
         "id": "jtolentino",
-        "name": "Jari-lee Tolentino",
-        "link": null
+        "name": "Jari-lee Tolentino"
     },
     {
         "id": "jwu",
@@ -150,6 +175,11 @@
         "link": "https://www.cs.columbia.edu/~chilton/chilton.html"
     },
     {
+        "id": "ldegreef",
+        "name": "Lilian de Greef",
+        "link": "https://www.ldegreef.com/"
+    },
+    {
         "id": "lkirabo",
         "name": "Lynn Kirabo",
         "link": "https://kirabo.io/"
@@ -170,6 +200,11 @@
         "link": "https://www.michalluria.com/"
     },
     {
+        "id": "mskirpan",
+        "name": "Michael Skirpan",
+        "link": "http://mwskirpan.com/"
+    },
+    {
         "id": "pcarrington",
         "name": "Patrick Carrington",
         "link": "https://www.patrickcarrington.com/"
@@ -180,9 +215,19 @@
         "link": "https://prakharguptaz.github.io/"
     },
     {
+        "id": "rwang",
+        "name": "Ruolin Wang",
+        "link": "https://www.violynnewang.com/"
+    },
+    {
         "id": "sdow",
         "name": "Steven Dow",
         "link": "http://spdow.ucsd.edu/"
+    },
+    {
+        "id": "sfox",
+        "name": "Sarah E Fox",
+        "link": "https://www.sarahfox.info/"
     },
     {
         "id": "smehri",
@@ -196,13 +241,11 @@
     },
     {
         "id": "swhite",
-        "name": "Samuel White",
-        "link": null
+        "name": "Samuel White"
     },
     {
         "id": "syu",
-        "name": "Seunga (Gloria) Yu",
-        "link": null
+        "name": "Seunga (Gloria) Yu"
     },
     {
         "id": "tzhao",
@@ -228,6 +271,11 @@
         "id": "xliu",
         "name": "Xingyu Liu",
         "link": "https://www.xingyuliu.com/"
+    },
+    {
+        "id": "ykotturi",
+        "name": "Yasmine Kotturi",
+        "link": "https://ykotturi.github.io/"
     },
     {
         "id": "ypeng",

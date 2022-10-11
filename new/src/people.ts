@@ -4,11 +4,15 @@ import peopleJson from "./data/people.json";
 import { pipe } from "fp-ts/function";
 import { formatValidationErrors } from "io-ts-reporters";
 
-const Person = t.type({
-  id: t.string,
-  name: t.string,
-  link: t.union([t.string, t.null]),
-});
+const Person = t.intersection([
+  t.type({
+    id: t.string,
+    name: t.string,
+  }),
+  t.partial({
+    link: t.string,
+  }),
+]);
 
 export type Person = t.TypeOf<typeof Person>;
 
