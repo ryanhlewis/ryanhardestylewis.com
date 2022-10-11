@@ -32,6 +32,8 @@ const Publication = t.intersection([
         workshop: null,
         "tech-report": null,
         highlight: null,
+        bestpaper: null,
+        honorablemention: null,
       })
     ),
   }),

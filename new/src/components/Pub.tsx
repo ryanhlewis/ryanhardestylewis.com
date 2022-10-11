@@ -3,6 +3,7 @@ import { Person, PEOPLE } from "../people";
 import { Publication } from "../cv";
 import ReactMarkdown from "react-markdown";
 import PubImage from "./PubImage";
+import { BookmarkIcon, TrophyIcon } from "@heroicons/react/20/solid";
 
 function PeopleList({ people }: { people: Person[] }) {
   return (
@@ -28,6 +29,24 @@ function PeopleList({ people }: { people: Person[] }) {
   );
 }
 
+function Honor({ tags }: { tags: Publication["tags"] }) {
+  const bestPaper = tags.includes("bestpaper");
+  const hm = tags.includes("honorablemention");
+  if (bestPaper || hm) {
+    const Icon = bestPaper ? TrophyIcon : BookmarkIcon;
+    const text = bestPaper ? "Best Paper Award" : "Honorable Mention Award";
+    return (
+      <p className="pb-1">
+        <b>
+          <Icon className="h-4 w-4 inline-block align-middle" />
+          <div className="ml-1 inline-block align-middle">{text}</div>
+        </b>
+      </p>
+    );
+  }
+  return null;
+}
+
 export default function PubComponent({ pub }: { pub: Publication }) {
   const pubTitle = pub.link ? (
     <a className="text-blue-600" href={pub.link}>
@@ -36,6 +55,7 @@ export default function PubComponent({ pub }: { pub: Publication }) {
   ) : (
     pub.name
   );
+
   return (
     <div className="grid grid-cols-4 gap-x-4 pb-10 text-sm">
       <div className="col-span-1">
@@ -57,6 +77,7 @@ export default function PubComponent({ pub }: { pub: Publication }) {
           />
         </div>
         <p className="pb-1">{pub.publisher}</p>
+        <Honor tags={pub.tags} />
         <div>
           <ReactMarkdown>{pub.content ?? ""}</ReactMarkdown>
         </div>
