@@ -22,7 +22,7 @@ export default function IndexPage({ data }) {
   const researchHtml = data.research.children[0].html;
   const pubs = sortByDate(cv.publications, "releaseDate").reverse();
   return (
-    <div className="sm:container sm:mx-auto px-10 md:px-30 lg:px-40 py-10 text">
+    <div className="sm:container sm:mx-auto px-10 md:px-30 lg:px-30 xl:px-40 py-10 text">
       <h1 className="text-4xl py-8">Amy Pavel</h1>
       <div className="md:grid md:grid-cols-4 md:gap-x-4">
         <div className="col-span-1">
