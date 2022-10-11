@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="92b2505b-6ee0-4bc6-85ad-c87d8349cef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/index.html.eco" beforeDir="false" afterPath="$PROJECT_DIR$/src/documents/index.html.eco" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/content/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/data/cv.json" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/data/cv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/data/people.json" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/data/people.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/src/people.ts" beforeDir="false" afterPath="$PROJECT_DIR$/new/src/people.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +18,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1l5GOKSGzcpmtnK7lldzZHuLmnB" />
   <component name="ProjectLevelVcsManager">
@@ -30,18 +38,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/srubin/code/amypavel.com/new/src/papers",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/srubin/code/amypavel.com/new/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/srubin/code/amypavel.com/new/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/new/src/papers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/new/static" />
+      <recent name="$PROJECT_DIR$/new/src/images/thumbnails" />
+      <recent name="$PROJECT_DIR$/new/src/images" />
+      <recent name="$PROJECT_DIR$/new/src" />
       <recent name="$PROJECT_DIR$/src/files/papers" />
-      <recent name="$PROJECT_DIR$/src/files" />
-      <recent name="$PROJECT_DIR$/out/documents" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,13 +71,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606879506159</updated>
+      <workItem from="1664658545274" duration="13113000" />
+      <workItem from="1665252279531" duration="9868000" />
+      <workItem from="1665409327692" duration="2000" />
+      <workItem from="1665455079166" duration="10460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

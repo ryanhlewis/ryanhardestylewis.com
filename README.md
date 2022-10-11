@@ -1,12 +1,12 @@
-amypavel.com (forked from github.com/srubin/ssrubin.com)
+amypavel.com
 ===========
 
-Personal web site.
+Personal web site, built with gatsby and tailwind
 
-First, run `yarn`
+First, run `npm install`
 
-To generate site: `yarn build`
+To generate site: `npm run build`
   
-Local testing: `yarn start`
+Local testing: `npm run develop`
 
-To deploy: `yarn deploy`
+To deploy: `npm run deploy`
