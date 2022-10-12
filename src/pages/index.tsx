@@ -8,6 +8,7 @@ import TeachingComponent from "../components/Teaching";
 import HighlightComponent from "../components/Highlight";
 import parse from "date-fns/parse";
 import ReactMarkdown from "react-markdown";
+import AmyPavelSmall from '../images/amypavel-small.png'
 
 function sortByDate<T>(items: T[], key: keyof T): T[] {
   return [...items].sort((a, b) => {
@@ -25,12 +26,11 @@ export default function IndexPage({ data }) {
     <div className="sm:container sm:mx-auto px-10 md:px-30 lg:px-30 xl:px-40 py-10 text">
       <h1 className="text-4xl py-8">Amy Pavel</h1>
       <div className="md:grid md:grid-cols-4 md:gap-x-4">
-        <div className="col-span-1">
-          <StaticImage
-            src="../images/amypavel-small.png"
-            alt="Amy Pavel headshot"
-            className="w-48 md:w-auto"
-          />
+        <div className="col-span-1 mb-10">
+          <div className="w-48 h-52 md:h-auto md:w-auto">
+            {/* using img instead of StaticImage to avoid the fade-in */}
+            <img className="w-48 md:h-auto md:w-auto" src={AmyPavelSmall} alt="Amy Pavel headshot"   />
+          </div>
           <div className="py-6">
             <p>
               Email{" "}
