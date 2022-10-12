@@ -107,7 +107,7 @@ export default function IndexPage({ data }) {
             className="writing"
             dangerouslySetInnerHTML={{ __html: researchHtml }}
           />
-          <h2 className="text-2xl font-medium pb-7 pt-8">Conference Papers</h2>
+          <h2 className="text-2xl font-medium pb-7 pt-8">Research Papers</h2>
           <div className="md:container md:mx-auto">
             {pubs
               .filter((p) => p.tags.includes("paper"))
